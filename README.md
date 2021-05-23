@@ -33,3 +33,7 @@
 海・サーフィンを感じながらタイピング練習したい人
 海が好きなのに行けていない人
 心が疲れてしまっている人
+
+# 画面遷移図
+
+https://www.figma.com/file/No3vUSHqCDYL2mBBMlTyGQ/surfing_typing?node-id=3%3A0
