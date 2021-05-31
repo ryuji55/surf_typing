@@ -36,4 +36,4 @@
 
 # 画面遷移図
 
-https://www.figma.com/file/No3vUSHqCDYL2mBBMlTyGQ/surfing_typing?node-id=3%3A0
+https://www.figma.com/file/No3vUSHqCDYL2mBBMlTyGQ/surfing_typing?node-id=60%3A2
