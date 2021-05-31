@@ -1,0 +1,18 @@
+#video-area {
+    position: relative;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+.top-inner-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 0 15px #666;
+}
