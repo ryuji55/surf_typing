@@ -1,0 +1,23 @@
+#video-area {
+    position: relative;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+.typing {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 0 15px #666;
+}
+
+#target {
+  font-size: 48px;
+  letter-spacing: .1em;
+}
