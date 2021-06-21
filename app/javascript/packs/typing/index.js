@@ -55,6 +55,7 @@
 
       if (loc === word.length) {
         if (words.length === 0) {
+          targetJp.textContent = 'Nice!!Riding!!';
           const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
           const result = document.getElementById('result');
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
