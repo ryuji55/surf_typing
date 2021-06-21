@@ -3,8 +3,8 @@
   {
     function setWord() {
       random = Math.floor(Math.random() * words.length);
-      word = words[random];
-      wordJp = wordsJp[random];
+      word = words.splice([random],1)[0];
+      wordJp = wordsJp.splice([random],1)[0];
       targetEn.textContent = word;
       targetJp.textContent = wordJp;
       loc = 0;
