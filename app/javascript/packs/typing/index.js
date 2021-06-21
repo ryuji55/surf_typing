@@ -2,8 +2,11 @@
 
   {
     function setWord() {
-      word = words.splice(Math.floor(Math.random() * words.length), 1)[0];
-      target.textContent = word;
+      random = Math.floor(Math.random() * words.length);
+      word = words[random];
+      wordJp = wordsJp[random];
+      targetEn.textContent = word;
+      targetJp.textContent = wordJp;
       loc = 0;
     }
 
@@ -12,12 +15,19 @@
       'guitar',
       'mugic'
     ];
+    const wordsJp = [
+      'サーフ',
+      'ギター',
+      'ミュージック'
+    ];
     let word;
+    let wordJp;
+    let random;
     let loc = 0;
     let startTime;
     let isPlaying = false;
 
-    const target = document.getElementById('target');
+    const target = document.getElementById('targetEn');
 
 
     document.addEventListener('click', () => {
@@ -41,7 +51,7 @@
       // 2: __rf
       // 3: ---f
       // 4: ----
-      target.textContent = '_'.repeat(loc) + word.substring(loc);
+      targetEn.textContent = '_'.repeat(loc) + word.substring(loc);
 
       if (loc === word.length) {
         if (words.length === 0) {
