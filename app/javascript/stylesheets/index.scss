@@ -6,6 +6,8 @@
     left:0;
     bottom:0;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 .typing {
@@ -17,7 +19,12 @@
     text-shadow: 0 0 15px #666;
 }
 
-#target {
-  font-size: 30px;
+#targetEn {
+  font-size: 40px;
+  letter-spacing: .1em;
+}
+
+#targetJp {
+  font-size: 40px;
   letter-spacing: .1em;
 }

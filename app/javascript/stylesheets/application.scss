@@ -1,3 +1,9 @@
 @import 'bootstrap';
 @import '../stylesheets/top.scss';
 @import '../stylesheets/index.scss';
+
+.homelink {
+  position: static;
+  top: 50px;
+  left: 50px;
+}
