@@ -27,7 +27,7 @@
       'ギター',
       'ミュージック'
     ];
-    let time = 3;
+    let time = 2;
     let word;
     let wordJp;
     let random;
@@ -37,10 +37,16 @@
     let count = 0;
     let missCount = 0;
     let countdown;
+    let isPlayEnd = false;
 
     const timer = document.getElementById('timer');
 
+    const typeMiss = document.getElementById('typeMiss');
+
     const target = document.getElementById('targetEn');
+
+    const targetJp = document.getElementById('targetJp');
+
 
     document.addEventListener('click', () => {
       if (isPlaying === true) {
@@ -57,7 +63,7 @@
     });
 
     document.addEventListener('keydown', e => {
-      if (isPlaying === false) {
+      if (isPlayEnd === true) {
         return;
       }
 
@@ -81,18 +87,21 @@
       }
     });
     document.addEventListener('keyup', () => {
-      if (isPlaying === false) {
+      if (isPlayEnd === true) {
         return;
       }
 
 
         if (time <= 0) {
-
-          isPlaying = false;
+          //画像切り替えたい
+          isPlayEnd = true;
           targetJp.textContent = 'Nice!!Riding!!';
           const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
           const result = document.getElementById('result');
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
+          const image = document.getElementById('video-area');
+          image.innerHTML = '<img src="/packs/media/images/finish-670af7f3f0f067fc91921afe619e0a98.jpeg">';
+
           return;
         }
       });
