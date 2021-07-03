@@ -93,7 +93,7 @@
 
 
         if (time <= 0) {
-          //画像切り替えたい
+          
           isPlayEnd = true;
           targetJp.textContent = 'Nice!!Riding!!';
           const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
