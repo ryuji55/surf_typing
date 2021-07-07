@@ -27,7 +27,7 @@
       'ギター',
       'ミュージック'
     ];
-    let time = 10;
+    let time = 7;
     let word;
     let wordJp;
     let random;
@@ -108,7 +108,7 @@
           const result = document.getElementById('result');
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
           const image = document.getElementById('video-area');
-          image.innerHTML = '<img src="/packs/media/images/finish-670af7f3f0f067fc91921afe619e0a98.jpeg">';
+          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/assets/videos/ending.mov"></video>';
 
           return;
         }
