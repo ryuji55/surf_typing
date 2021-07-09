@@ -18,16 +18,23 @@
     }
 
     const words = [
-      'surf',
-      'guitar',
-      'mugic'
+      'asitahaasitanokazegahuku',
+      'seityounimutyuuninaru',
+      'sukinahitotoissyoniinasai',
+      'sakiwoakarukumiyou',
+      'sukinakotowoyatteikinasai',
+      'kiminotameninanigadekiruka'
     ];
     const wordsJp = [
-      'サーフ',
-      'ギター',
-      'ミュージック'
+      '明日は明日の風がふく',
+      '成長に夢中になる',
+      '好きな人と一緒にいなさい',
+      '先を明るく見よう',
+      '好きなことをやっていきさない',
+      '君のために今なにができるか'
+
     ];
-    let time = 7;
+    let time = 30;
     let word;
     let wordJp;
     let random;
@@ -60,7 +67,7 @@
       }
       isPlaying = true;
       setInterval(() => {
-        timer.textContent = '制限時間:' + --time + '秒';
+        timer.textContent = 'TimeLimit:' + --time;
         if(time <= 0) finish();
       },1000);
       startTime = Date.now();
@@ -103,12 +110,13 @@
         if (time <= 0) {
 
           isPlayEnd = true;
+          const image = document.getElementById('video-area');
+          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/assets/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
+          target.innerHTML = '';
           const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
           const result = document.getElementById('result');
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
-          const image = document.getElementById('video-area');
-          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/assets/videos/ending.mov"></video>';
 
           return;
         }

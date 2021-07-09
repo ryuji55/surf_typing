@@ -1,11 +1,13 @@
 <div class="top-wrapper">
   <div class="top-inner-text">
-    <h1>概要</h1>
-    <p>海を感じながら、タイピングの練習をしながらサーフィンしている気持ちになれる、タイピングゲームです。</p>
-    <p>タイピング中は波の音とアコースティックギターの音声が入っています。</p>
+    <h1>Surf Typing!!</h1>
+    <h2>海を感じながら…サーフムービーをバックにタイピングの練習ができるアプリです。</h2>
+    <p>気持ちが明るくなるような言葉を問題にしています。</p>
+    <p id="volume">※音量注意!!</p>
+    <p>タイピング中は波・アコースティックギター・タイプミス時のエラーの音声が入っています。</p>
     <%= link_to 'Next', typings_path %>
   </div>
   <div id="video-area">
-  <%= video_tag("/assets/videos/ロングビーチ.mp4", autoplay: true, loop: true, muted: true) %>
+  <%= video_tag("/assets/videos/opening.mov", autoplay: true, loop: true, muted: true) %>
   </div>
 </div>
