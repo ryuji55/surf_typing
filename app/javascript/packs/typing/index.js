@@ -23,7 +23,9 @@
       'sukinahitotoissyoniinasai',
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
-      'kiminotameninanigadekiruka'
+      'kiminotameninanigadekiruka',
+      'utagauyorisinnziteitai'
+
     ];
     const wordsJp = [
       '明日は明日の風がふく',
@@ -31,7 +33,10 @@
       '好きな人と一緒にいなさい',
       '先を明るく見よう',
       '好きなことをやっていきさない',
-      '君のために今なにができるか'
+      '君のために今なにができるか',
+      '疑うより信じいたい'
+
+
 
     ];
     let time = 30;
@@ -111,7 +116,7 @@
 
           isPlayEnd = true;
           const image = document.getElementById('video-area');
-          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/assets/videos/ending.mov"></video>';
+          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
           const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
