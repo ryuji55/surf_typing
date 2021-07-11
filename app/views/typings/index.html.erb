@@ -1,3 +1,6 @@
+<div id="video-area">
+  <%= video_tag('/videos/surftyping.mp4', autoplay: true, loop: true) %>
+</div>
 <div class="top-wrapper">
  <div class="typing">
    <p id="timer"></p>
@@ -5,9 +8,6 @@
    <p id="targetJp"></p>
    <p id="targetEn">Let's Surf Typing!</p>
    <p id="result"></p>
- </div>
- <div id="video-area">
-   <%= video_tag('/videos/surftyping.mp4', autoplay: true, loop: true) %>
  </div>
    <%= javascript_pack_tag 'typing/index' %>
 </div>
