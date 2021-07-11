@@ -23,7 +23,7 @@
       'sukinahitotoissyoniinasai',
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
-      'kiminotameninanigadekiruka',
+      'kiminotameniimananigadekiruka',
       'utagauyorisinnziteitai'
 
     ];
@@ -34,7 +34,7 @@
       '先を明るく見よう',
       '好きなことをやっていきさない',
       '君のために今なにができるか',
-      '疑うより信じいたい'
+      '疑うより信じていたい'
 
 
 
