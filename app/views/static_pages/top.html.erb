@@ -1,3 +1,6 @@
+<div id="video-area">
+<%= video_tag('/videos/opening.mov', autoplay: true, loop: true, muted: true) %>
+</div>
 <div class="top-wrapper">
   <div class="top-inner-text">
     <h1>Surf Typing!!</h1>
@@ -6,8 +9,5 @@
     <p id="volume">※音量注意!!</p>
     <p>タイピング中は波・アコースティックギター・タイプミス時のエラーの音声が入っています。</p>
     <%= link_to 'Next', typings_path %>
-  </div>
-  <div id="video-area">
-  <%= video_tag("/assets/videos/opening.mov", autoplay: true, loop: true, muted: true) %>
   </div>
 </div>

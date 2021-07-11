@@ -31,3 +31,16 @@ footer {
 #volume {
   color: red;
 }
+
+.col-sm-6 col-12 {
+  display: table;
+}
+
+.copyright {
+  display: table-cell;
+}
+
+.twitter-icon {
+  display: table-cell;
+  padding-left: 10px;
+}

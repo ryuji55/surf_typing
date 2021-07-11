@@ -23,7 +23,9 @@
       'sukinahitotoissyoniinasai',
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
-      'kiminotameninanigadekiruka'
+      'kiminotameniimananigadekiruka',
+      'utagauyorisinnziteitai'
+
     ];
     const wordsJp = [
       '明日は明日の風がふく',
@@ -31,10 +33,13 @@
       '好きな人と一緒にいなさい',
       '先を明るく見よう',
       '好きなことをやっていきさない',
-      '君のために今なにができるか'
+      '君のために今なにができるか',
+      '疑うより信じていたい'
+
+
 
     ];
-    let time = 30;
+    let time = 3;
     let word;
     let wordJp;
     let random;
@@ -110,13 +115,19 @@
         if (time <= 0) {
 
           isPlayEnd = true;
+
           const image = document.getElementById('video-area');
-          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/assets/videos/ending.mov"></video>';
+          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
           const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
           const result = document.getElementById('result');
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
+
+          const twitterButtom = document.getElementById('twitter-buttom');
+          twitterButtom.href = "https://twitter.com/share?url=https://surf-typing.herokuapp.com/&text=&hashtags=surftyping,海,タイピングゲーム";
+          twitterButtom.innerHTML = '<i class="fab fa-twitter share-button"></i>';
+
 
           return;
         }
