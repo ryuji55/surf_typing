@@ -32,13 +32,15 @@ footer {
   color: red;
 }
 
+.col-sm-6 col-12 {
+  display: table;
+}
+
 .copyright {
-  display: inline-block;
-  width: 30%;
+  display: table-cell;
 }
 
 .twitter-icon {
-  float: right;
-  width: 70%;
-  padding-top: 17px;
+  display: table-cell;
+  padding-left: 10px;
 }
