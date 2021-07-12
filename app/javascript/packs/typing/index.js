@@ -24,7 +24,8 @@
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
       'kiminotameniimananigadekiruka',
-      'utagauyorisinnziteitai'
+      'utagauyorisinnziteitai',
+      'もう過ぎたことは忘れよう'
 
     ];
     const wordsJp = [
@@ -34,7 +35,8 @@
       '先を明るく見よう',
       '好きなことをやっていきさない',
       '君のために今なにができるか',
-      '疑うより信じていたい'
+      '疑うより信じていたい',
+      'mousugitakotohawasureyou'
 
 
 
@@ -125,6 +127,7 @@
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
 
           const twitterButtom = document.getElementById('twitter-buttom');
+          //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
           twitterButtom.href = "https://twitter.com/share?url=https://surf-typing.herokuapp.com/&text=&hashtags=surftyping,海,タイピングゲーム";
           twitterButtom.innerHTML = '<i class="fab fa-twitter share-button"></i>';
 
