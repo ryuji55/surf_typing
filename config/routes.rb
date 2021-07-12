@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :typings, only: %i[index new]
   get 'terms', to: 'static_pages#terms'
   get 'privacy', to: 'static_pages#privacy'
+  get 'contact', to: 'static_pages#contact'
 end
