@@ -26,7 +26,7 @@
       'kiminotameniimananigadekiruka',
       'utagauyorisinnziteitai',
       'mousugitakotohawasureyou',
-      'anokorohananimonakutesoredattetanosikuyattayo'
+      'anokorohananimonakute'
 
     ];
     const wordsJp = [
@@ -38,7 +38,7 @@
       '君のために今なにができるか',
       '疑うより信じていたい',
       'もう過ぎたことは忘れよう',
-      'あの頃はなにもなくてそれだって楽しくやったよ'
+      'あの頃はなにもなくて'
 
 
 
