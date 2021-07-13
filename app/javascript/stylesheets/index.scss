@@ -1,6 +1,8 @@
 #video-area {
     position: relative;
     z-index: -1;/*最背面に設定*/
+    width: 100%;
+    height: auto;
 
 }
 
@@ -14,20 +16,21 @@
     top: 30%;
     left: 35%;
     text-align: center;
-    color:#fff;
+    color: #e0ffff;
     text-shadow: 0 0 15px #666;
 }
 
 #targetEn {
-  font-size: 40px;
+  font-size: 20px;
   letter-spacing: .1em;
 }
 
 #targetJp {
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: .1em;
 }
 
 #timer {
   font-size: 30px;
+  color: #f08080;
 }
