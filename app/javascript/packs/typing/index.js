@@ -18,7 +18,7 @@
     }
 
     const words = [
-      'mazuhakyouitinitiwotanosikuikitemiru',
+      'kyouitinitiwotanosikuikitemiru',
       'seityounimutyuuninaru',
       'sukinahitotoissyoniinasai',
       'sakiwoakarukumiyou',
@@ -30,7 +30,7 @@
 
     ];
     const wordsJp = [
-      'まずは今日1日を楽しく生きてみる',
+      '今日1日を楽しく生きてみる',
       '成長に夢中になる',
       '好きな人と一緒にいなさい',
       '先を明るく見よう',
