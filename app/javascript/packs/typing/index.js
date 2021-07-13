@@ -18,30 +18,32 @@
     }
 
     const words = [
-      'asitahaasitanokazegahuku',
+      'kyouitinitiwotanosikuikitemiru',
       'seityounimutyuuninaru',
       'sukinahitotoissyoniinasai',
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
       'kiminotameniimananigadekiruka',
       'utagauyorisinnziteitai',
-      'もう過ぎたことは忘れよう'
+      'mousugitakotohawasureyou',
+      'anokorohananimonakute'
 
     ];
     const wordsJp = [
-      '明日は明日の風がふく',
+      '今日1日を楽しく生きてみる',
       '成長に夢中になる',
       '好きな人と一緒にいなさい',
       '先を明るく見よう',
       '好きなことをやっていきさない',
       '君のために今なにができるか',
       '疑うより信じていたい',
-      'mousugitakotohawasureyou'
+      'もう過ぎたことは忘れよう',
+      'あの頃はなにもなくて'
 
 
 
     ];
-    let time = 3;
+    let time = 30;
     let word;
     let wordJp;
     let random;
