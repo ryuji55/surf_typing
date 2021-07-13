@@ -25,7 +25,7 @@
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
       'taisetunahitowotaisetuni',
-      'utagauyorisinnzitemiyou',
+      'utagauyorisinnjitemiyou',
       'mousugitakotohawasureyou',
       'siawasehaatarimaenonakaniaru',
       'iikotohaiyanakotonoatoniyattekuru'
