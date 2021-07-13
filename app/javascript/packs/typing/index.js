@@ -43,7 +43,7 @@
 
 
     ];
-    let time = 3;
+    let time = 30;
     let word;
     let wordJp;
     let random;
