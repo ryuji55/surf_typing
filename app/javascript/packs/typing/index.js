@@ -3,6 +3,7 @@
   {
     //初期設定
     function setWord() {
+      timer.textContent = 'Time:' + time;
       random = Math.floor(Math.random() * words.length);
       word = words.splice([random],1)[0];
       wordJp = wordsJp.splice([random],1)[0];
@@ -14,7 +15,7 @@
     function finish() {
       clearInterval(countdown);
       timer.textContent = '正解数は' + count + '個でした!';
-      typeMiss.textContent = '不正解は' + missCount + '個でした!';
+      typeMiss.textContent = 'タイプミスは' + missCount + '個でした!';
     }
 
     const words = [
@@ -23,10 +24,11 @@
       'sukinahitotoissyoniinasai',
       'sakiwoakarukumiyou',
       'sukinakotowoyatteikinasai',
-      'kiminotameniimananigadekiruka',
-      'utagauyorisinnziteitai',
+      'taisetunahitowotaisetuni',
+      'utagauyorisinnjitemiyou',
       'mousugitakotohawasureyou',
-      'anokorohananimonakute'
+      'siawasehaatarimaenonakaniaru',
+      'iikotohaiyanakotonoatoniyattekuru'
 
     ];
     const wordsJp = [
@@ -35,10 +37,11 @@
       '好きな人と一緒にいなさい',
       '先を明るく見よう',
       '好きなことをやっていきさない',
-      '君のために今なにができるか',
-      '疑うより信じていたい',
+      '大切な人を大切に',
+      '疑うより信じてみよう',
       'もう過ぎたことは忘れよう',
-      'あの頃はなにもなくて'
+      '幸せは当たり前の中にある',
+      'いい事は嫌な事の後にやってくる'
 
 
 
@@ -76,7 +79,7 @@
       }
       isPlaying = true;
       setInterval(() => {
-        timer.textContent = 'TimeLimit:' + --time;
+        timer.textContent = 'Time:' + --time;
         if(time <= 0) finish();
       },1000);
       startTime = Date.now();

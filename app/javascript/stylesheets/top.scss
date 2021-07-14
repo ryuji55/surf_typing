@@ -1,14 +1,13 @@
-
-
-#video-area {
+video {
     position: relative;
     z-index: -1;/*最背面に設定*/
-    width: 100%;
+    width: 100vw;
+    height: auto;
 }
 
 .top-wrapper {
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .top-inner-text {
