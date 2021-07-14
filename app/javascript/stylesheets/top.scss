@@ -1,11 +1,11 @@
 video {
-    position: relative;
     z-index: -1;/*最背面に設定*/
     width: 100vw;
     height: auto;
 }
 
 .top-wrapper {
+    position: relative;
     width: 100%;
     overflow: hidden;
 }
