@@ -1,16 +1,18 @@
-.terms-title{
-    padding-top: 90px;
-    padding-bottom: 50px;
+.terms-container {
+  padding: 0 10%;
 }
 
-.terms-text{
-    max-width: 800px;
+.wrap-terms {
+  border-radius: 15px;
+  background: #eff5f6;
+  border: 3px solid #e5eeef;
+  padding: 20px;
 }
 
-.terms-text-content{
-    margin-bottom: 50px;
-}
-
-.terms-text-subtitle{
-    margin-bottom: 30px;
+.terms {
+  border-radius: 15px;
+  margin: 20px 0;
+  background: #eff5f6;
+  border: 5px solid #e5eeef;
+  padding: 20px;
 }

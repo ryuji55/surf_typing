@@ -106,6 +106,7 @@
       }
 
       loc++;
+      count++;
 
       // 1: _urf
       // 2: __rf
@@ -114,7 +115,6 @@
       targetEn.textContent = '_'.repeat(loc) + word.substring(loc);
 
       if (loc === word.length) {
-        count++;
         setWord();
       }
     });

@@ -1,22 +1,22 @@
 video {
-    z-index: -1;/*最背面に設定*/
-    width: 100vw;
+  z-index: -1;/*最背面に設定*/
+  width: 100vw;
 }
 
 .top-wrapper {
-    position: relative;
-    width: 100%;
-    height: 730px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 730px;
+  overflow: hidden;
 }
 
 .top-inner-text {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    text-shadow: 0 0 15px #666;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px #666;
 }
 
 .homelink {
@@ -37,9 +37,35 @@ video {
 
 .copyright {
   display: table-cell;
+  color: #00008b;
 }
 
 .twitter-icon {
   display: table-cell;
   padding-left: 10px;
+}
+
+.share-button {
+  color: #1da1f2;
+}
+
+.footer_link {
+  color: #00008b;
+}
+
+a {
+  text-decoration: none;
+}
+
+//header
+.logo {
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.next {
+  color: #0000cd;
+  text-decoration: none;
+  font-size: 20px;
 }
