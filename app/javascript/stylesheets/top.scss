@@ -1,22 +1,26 @@
 video {
-    z-index: -1;/*最背面に設定*/
-    width: 100vw;
+  z-index: -1;/*最背面に設定*/
+  width: 100vw;
 }
 
 .top-wrapper {
-    position: relative;
-    width: 100%;
-    height: 730px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 730px;
+  overflow: hidden;
 }
 
 .top-inner-text {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    text-shadow: 0 0 15px #666;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px #666;
+}
+
+h1 {
+  color: #87cefa;
 }
 
 .homelink {
@@ -65,7 +69,7 @@ a {
 }
 
 .next {
-  color: #1da1f2;
+  color: #0000cd;
   text-decoration: none;
   font-size: 20px;
 }
