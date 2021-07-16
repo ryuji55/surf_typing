@@ -1,16 +1,27 @@
-.terms-title{
+.terms-title {
     padding-top: 90px;
     padding-bottom: 50px;
 }
 
-.terms-text{
+.terms-text {
     max-width: 800px;
 }
 
-.terms-text-content{
+.terms-text-content {
     margin-bottom: 50px;
 }
 
-.terms-text-subtitle{
+.terms-text-subtitle {
     margin-bottom: 30px;
+}
+
+.top-app text-family2 privacy-border mx-auto {
+  border: 3px solid #78bbe6;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+
+.col-lg-12 col-md-12 col-sm-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
 }

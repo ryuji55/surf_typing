@@ -9,6 +9,9 @@ import "channels"
 import '@fortawesome/fontawesome-free/js/all'
 import '../stylesheets/application.scss'
 
+const images = require.context("../images", true);
+const imagePath = name => images(name, true);
+
 
 Rails.start()
 ActiveStorage.start()
