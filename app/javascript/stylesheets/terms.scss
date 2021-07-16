@@ -1,12 +1,15 @@
 .terms-container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 10%;
 }
 
 .wrap-terms {
+  border-radius: 15px;
+  background: #eff5f6;
+  border: 3px solid #e5eeef;
+  padding: 20px;
+}
+
+.terms {
   border-radius: 15px;
   margin: 20px 0;
   background: #eff5f6;
