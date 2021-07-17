@@ -28,7 +28,8 @@
       'utagauyorisinnjitemiyou',
       'mousugitakotohawasureyou',
       'siawasehaatarimaenonakaniaru',
-      'iikotohaiyanakotonoatoniyattekuru'
+      'iikotohaiyanakotonoatoniyattekuru',
+      'kannsyanokimotiwowasurenai'
 
     ];
     const wordsJp = [
@@ -41,12 +42,13 @@
       '疑うより信じてみよう',
       'もう過ぎたことは忘れよう',
       '幸せは当たり前の中にある',
-      'いい事は嫌な事の後にやってくる'
+      'いい事は嫌な事の後にやってくる',
+      '感謝の気持ちを忘れない'
 
 
 
     ];
-    let time = 30;
+    let time = 2;
     let word;
     let wordJp;
     let random;
@@ -138,6 +140,7 @@
 
           const twitterButtom = document.getElementById('twitter-buttom');
           //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
+          const twitterText = `正確にタイプした数 ${count} タイプミス ${missCount} でした。`
           twitterButtom.href = "https://twitter.com/share?url=https://surf-typing.herokuapp.com/&text=&hashtags=surftyping,海,タイピングゲーム";
           twitterButtom.innerHTML = '<i class="fab fa-twitter share-button"></i>';
 
