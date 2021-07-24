@@ -48,7 +48,7 @@
 
 
     ];
-    let time = 30;
+    let time = 2;
     let word;
     let wordJp;
     let random;
@@ -141,11 +141,25 @@
           const twitterButtom = document.getElementById('twitter-buttom');
           //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
           const twitterText = `正確にタイプした数 ${count} タイプミス ${missCount} でした。`
-          twitterButtom.href = "https://twitter.com/share?url=https://surf-typing.herokuapp.com/&text=&hashtags=surftyping,海,タイピングゲーム";
+
           twitterButtom.innerHTML = '<i class="fab fa-twitter share-button"></i>';
 
+          const $ = require("jquery");
+          $.ajax({
+            url: '/typings',
+            type: 'GET',
+            dataType: 'html',
+            async: true,
+            data: {
+              count: count,
+              missCount: missCount
+            },
+          });
+
+          console.log('test');
 
           return;
         }
       });
+
   }
