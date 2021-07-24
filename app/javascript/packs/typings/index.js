@@ -138,25 +138,15 @@
 
           result.textContent = `Finishd! ${elapsedTime} seconds!`;
 
-          const twitterButtom = document.getElementById('twitter-buttom');
-          //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
           const twitterText = `正確にタイプした数 ${count} タイプミス ${missCount} でした。`
+          //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
 
-          twitterButtom.innerHTML = '<i class="fab fa-twitter share-button"></i>';
+          const link = document.querySelector('.twitter-share');
+          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=${count} ${missCount}&hashtags=タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉&lang=ja`;
 
-          const $ = require("jquery");
-          $.ajax({
-            url: '/typings',
-            type: 'GET',
-            dataType: 'html',
-            async: true,
-            data: {
-              count: count,
-              missCount: missCount
-            },
-          });
+          link.setAttribute('href', url);
 
-          console.log('test');
+          link.innerHTML = '<i class="fab fa-twitter share-button"></i>';
 
           return;
         }

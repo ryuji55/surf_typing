@@ -8,7 +8,9 @@
    <p id="targetJp">Let's Surf Typing!</p>
    <p id="targetEn"></p>
    <p id="result"></p>
-   <a id="twitter-buttom" href="https://twitter.com/share?url=https://surf-typing.herokuapp.com/&text=<%= @count %><%= @missCount %>&hashtags=surftyping,海,タイピングゲーム" title="Twitter" target="_blank" rel=”noopener noreferrer”></a>
+    <%= link_to "", target: :_blank, rel: 'noopener noreferrer', class: 'twitter-share' do %>
+    <% end %>
+  </div>
 
  </div>
    <%= javascript_pack_tag 'typings/index' %>
