@@ -48,7 +48,7 @@
 
 
     ];
-    let time = 2;
+    let time = 60;
     let word;
     let wordJp;
     let random;
@@ -79,7 +79,7 @@
     result.textContent = 'キーボードをタイプで開始!!';
 
 
-    document.addEventListener('keydown', () => {
+    document.addEventListener('keyup', () => {
       if (isPlaying === true) {
         return;
       }
@@ -134,15 +134,9 @@
           image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
-          const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
-
-          result.textContent = `Finishd! ${elapsedTime} seconds!`;
-
-          const twitterText = `正確にタイプした数 ${count} タイプミス ${missCount} でした。`
-          //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
 
           const link = document.querySelector('.twitter-share');
-          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=${count} ${missCount}&hashtags=タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉&lang=ja`;
+          const url = `https://twitter.com/share?&url=shttps://surf-typing.herokuapp.com/&text=Time60で正確にタイプできたのは${count}個タイプミスしてしまったのは${missCount}個でした。&hashtags=タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉&lang=ja`;
 
           link.setAttribute('href', url);
 
