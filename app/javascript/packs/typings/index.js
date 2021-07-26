@@ -48,7 +48,7 @@
 
 
     ];
-    let time = 60;
+    let time = 2;
     let word;
     let wordJp;
     let random;
@@ -130,8 +130,8 @@
 
           isPlayEnd = true;
 
-          const image = document.getElementById('video-area');
-          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
+          const video = document.getElementById('video-area');
+          video.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
 
@@ -141,6 +141,9 @@
           link.setAttribute('href', url);
 
           link.innerHTML = '<i class="fab fa-twitter share-button"></i>';
+
+          const retry = document.querySelector('.retry');
+          retry.innerText = 'Retry!!';
 
           return;
         }
