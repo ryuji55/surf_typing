@@ -9,7 +9,7 @@ module ApplicationHelper
       keywords: 'タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉',
       canonical: request.original_url,
       icon: [
-        { href: image_url('favicon.ico')},
+        # { href: image_url('favicon.ico')},
       ],
       og: {
         site_name: :site,
@@ -17,13 +17,13 @@ module ApplicationHelper
         description: :description,
         type: 'website',
         url: request.original_url,
-        image: image_url("ogp.jpg"),
+        image: asset_pack_url("media/images/ogp.jpg"),
         local: 'ja-JP',
       },
       twitter: {
         card: 'summary_large_image',
         site: '@otokomigakimasu',
-        image: image_url("ogp.jpg"),
+        image: asset_pack_url("media/images/ogp.jpg"),
       }
     }
   end
