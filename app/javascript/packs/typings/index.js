@@ -48,7 +48,7 @@
 
 
     ];
-    let time = 60;
+    let time = 2;
     let word;
     let wordJp;
     let random;
@@ -141,6 +141,9 @@
           link.setAttribute('href', url);
 
           link.innerHTML = '<i class="fab fa-twitter share-button"></i>';
+
+          const retry = document.querySelector('.retry');
+          retry.innerText = 'Retry!!';
 
           return;
         }
