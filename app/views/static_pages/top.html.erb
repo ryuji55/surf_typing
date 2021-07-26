@@ -1,13 +1,19 @@
-<div class="top-wrapper">
-  <div id="video-area">
-   <%= video_tag('/videos/opening.mp4', autoplay: true, loop: true, muted: true) %>
+<div class="container">
+  <div class="top-wrapper">
+    <div id="video-area">
+     <%= video_tag('/videos/opening.mp4', autoplay: true, loop: true, muted: true) %>
+    </div>
+    <div class="top-inner-text">
+      <h1 class="top_title">Surf Typing!!</h1>
+      <h2>海を感じながら…サーフムービーをバックにタイピングの練習ができるアプリです。</h2>
+      <p>気持ちが明るくなるような言葉を問題にしています。</p>
+      <p id="volume">※音量注意!!</p>
+      <p>タイピング中は波・アコースティックギター・タイプミス時のエラーの音声が入っています。</p>
+      <%= link_to 'Next', typings_path, class: 'next' %>
+      <%= image_pack_tag 'IMG.jpg', size: '15x15' %>
+      </div>
+      <div class="footer-table">
+        <%= render 'shared/footer' %>
+      </div>
+    </div>
   </div>
-  <div class="top-inner-text">
-    <h1 class="top_title">Surf Typing!!</h1>
-    <h2>海を感じながら…サーフムービーをバックにタイピングの練習ができるアプリです。</h2>
-    <p>気持ちが明るくなるような言葉を問題にしています。</p>
-    <p id="volume">※音量注意!!</p>
-    <p>タイピング中は波・アコースティックギター・タイプミス時のエラーの音声が入っています。</p>
-    <%= link_to 'Next', typings_path, class: 'next' %>
-  </div>
-</div>

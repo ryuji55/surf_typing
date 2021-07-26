@@ -1,13 +1,17 @@
+.container {
+  height: 580px;
+}
+
 video {
   z-index: -1;/*最背面に設定*/
   width: 100vw;
-  height: auto;
+  height: 100%;
 }
 
 .top-wrapper {
   position: relative;
   width: 100%;
-  height: 720px;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -20,30 +24,39 @@ video {
   text-shadow: 0 0 15px #666;
 }
 
-.homelink {
-  position: static;
-  top: 500px;
-  left: 400px;
-}
-
 #volume {
   color: red;
 }
 
+.next {
+  color: #FFFF99;
+  font-size: 20px;
+}
+
 //footer
+
+.footer-table {
+  position: absolute;
+  top: 85%;
+  font-size: 5px;
+  text-align: left;
+  margin-left: 30px;
+}
 
 .col-sm-6 col-12 {
   display: table;
+  margin-bottom: 10px;
 }
 
 .copyright {
   display: table-cell;
-  color: #00008b;
+  color: #FFFF99;
 }
 
 .twitter-icon {
   display: table-cell;
   padding-left: 10px;
+  font-size: 10px;
 }
 
 .share-button {
@@ -51,22 +64,9 @@ video {
 }
 
 .footer_link {
-  color: #00008b;
+  color: #FFFF99;
 }
 
 a {
   text-decoration: none;
-}
-
-//header
-.logo {
-  color: #1e90ff;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.next {
-  color: #0000cd;
-  text-decoration: none;
-  font-size: 20px;
 }
