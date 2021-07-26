@@ -1,17 +1,14 @@
 .container {
   height: 580px;
+  overflow: hidden;
 }
 
 video {
   z-index: -1;/*最背面に設定*/
   width: 100vw;
+  height: 580px;
+  overflow: hidden;
 }
-
-.video-area {
-  width: 100vw;
-}
-
-
 
 .top-wrapper {
   position: relative;
