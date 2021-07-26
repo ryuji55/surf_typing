@@ -28,7 +28,8 @@
       'utagauyorisinnjitemiyou',
       'mousugitakotohawasureyou',
       'siawasehaatarimaenonakaniaru',
-      'iikotohaiyanakotonoatoniyattekuru'
+      'iikotohaiyanakotonoatoniyattekuru',
+      'kannsyanokimotiwowasurenai'
 
     ];
     const wordsJp = [
@@ -41,12 +42,13 @@
       '疑うより信じてみよう',
       'もう過ぎたことは忘れよう',
       '幸せは当たり前の中にある',
-      'いい事は嫌な事の後にやってくる'
+      'いい事は嫌な事の後にやってくる',
+      '感謝の気持ちを忘れない'
 
 
 
     ];
-    let time = 30;
+    let time = 60;
     let word;
     let wordJp;
     let random;
@@ -77,7 +79,7 @@
     result.textContent = 'キーボードをタイプで開始!!';
 
 
-    document.addEventListener('keydown', () => {
+    document.addEventListener('keyup', () => {
       if (isPlaying === true) {
         return;
       }
@@ -132,17 +134,16 @@
           image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
-          const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
 
-          result.textContent = `Finishd! ${elapsedTime} seconds!`;
+          const link = document.querySelector('.twitter-share');
+          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=Time60で正解数${count}個、不正解数${missCount}個でした。&hashtags=タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉&lang=ja`;
 
-          const twitterButtom = document.getElementById('twitter-buttom');
-          //textの中身にテンプレートリテラルを反映させれたら結果をツイートできる
-          twitterButtom.href = "https://twitter.com/share?url=https://surf-typing.herokuapp.com/&text=&hashtags=surftyping,海,タイピングゲーム";
-          twitterButtom.innerHTML = '<i class="fab fa-twitter share-button"></i>';
+          link.setAttribute('href', url);
 
+          link.innerHTML = '<i class="fab fa-twitter share-button"></i>';
 
           return;
         }
       });
+
   }

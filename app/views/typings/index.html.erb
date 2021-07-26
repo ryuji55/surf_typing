@@ -8,7 +8,10 @@
    <p id="targetJp">Let's Surf Typing!</p>
    <p id="targetEn"></p>
    <p id="result"></p>
-   <a id="twitter-buttom" href="" title="Twitter" target="_blank"></a>
+    <%= link_to "", target: :_blank, rel: 'noopener noreferrer', class: 'twitter-share' do %>
+    <% end %>
+  </div>
+
  </div>
-   <%= javascript_pack_tag 'typing/index' %>
+   <%= javascript_pack_tag 'typings/index' %>
 </div>
