@@ -3,7 +3,7 @@
     <div id="video-area">
       <%= video_tag('/videos/surfmovie.mp4', autoplay: true, loop: true ) %>
     </div>
-   <div class="typing">
+    <div class="typing">
      <p id="timer"></p>
      <p id="typeMiss"></p>
      <p id="targetJp">Let's Surf Typing!</p>
@@ -12,10 +12,10 @@
       <%= link_to '', root_path, class: 'retry' %>
       <%= link_to "", target: :_blank, rel: 'noopener noreferrer', class: 'twitter-share' do %>
       <% end %>
-      </div>
-      <div class="footer-table">
+     </div>
+     <div class="footer-table">
         <%= render 'shared/footer' %>
-      </div>
+     </div>
     </div>
      <%= javascript_pack_tag 'typings/index' %>
   </div>

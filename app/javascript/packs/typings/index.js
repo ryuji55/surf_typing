@@ -130,8 +130,8 @@
 
           isPlayEnd = true;
 
-          const image = document.getElementById('video-area');
-          image.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
+          const video = document.getElementById('video-area');
+          video.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
 
