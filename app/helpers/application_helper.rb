@@ -9,7 +9,7 @@ module ApplicationHelper
       keywords: 'タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉',
       canonical: request.original_url,
       icon: [
-        # { href: image_url('favicon.ico')},
+        #{ href: image_url('favicon.ico')},
       ],
       og: {
         site_name: :site,
