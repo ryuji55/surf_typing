@@ -14,8 +14,8 @@
     //終了処理の関数
     function finish() {
       clearInterval(countdown);
-      timer.textContent = '正解数は' + count + '個でした!';
-      typeMiss.textContent = 'タイプミスは' + missCount + '個でした!';
+      timer.textContent = '正タイプ数' + count + '文字でした!';
+      typeMiss.textContent = 'タイプミス数' + missCount + '文字でした!';
     }
 
     const words = [
@@ -160,7 +160,7 @@
           target.innerHTML = '';
 
           const link = document.querySelector('.twitter-share');
-          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=Time60で正解数${count}個、不正解数${missCount}個でした。&hashtags=タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉&lang=ja`;
+          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=Time60で正解タイプ数${count}文字、不正解数${missCount}文字でした。&hashtags=タイピングゲーム,サーフィン,海,アコースティックギター,前向きな言葉&lang=ja`;
 
           link.setAttribute('href', url);
 
