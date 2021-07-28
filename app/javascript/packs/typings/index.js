@@ -29,7 +29,14 @@
       'mousugitakotohawasureyou',
       'siawasehaatarimaenonakaniaru',
       'iikotohaiyanakotonoatoniyattekuru',
-      'kannsyanokimotiwowasurenai'
+      'kannsyanokimotiwowasurenai',
+      'itumokokoroniaozorawo',
+      'imawoikiru,imawotaisetunisuru',
+      'hitohahito,jibunnhajibunn',
+      'jibunnnokimotiwotaisetuni',
+      'anatanokawarihadarenimodekinai',
+
+
 
     ];
     const wordsJp = [
@@ -43,12 +50,17 @@
       'もう過ぎたことは忘れよう',
       '幸せは当たり前の中にある',
       'いい事は嫌な事の後にやってくる',
-      '感謝の気持ちを忘れない'
+      '感謝の気持ちを忘れない',
+      'いつも心に青空を',
+      '今を生きる、今を大切にする',
+      '人は人、自分は自分',
+      '自分の気持ちを大切に',
+      'あなたの代わりは誰にもできない'
 
 
 
     ];
-    let time = 2;
+    let time = 60;
     let word;
     let wordJp;
     let random;
