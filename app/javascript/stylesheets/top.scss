@@ -41,6 +41,8 @@ h2.second_title {
 }
 
 .next {
+  font-size: 45px;
+  color: #FFFF00;
   border-radius: 120% 3% 120% 0;
   margin: 30px;
   width: 100px;
@@ -50,6 +52,10 @@ h2.second_title {
   background:
   repeating-linear-gradient(90deg, rgb(0, 174, 255) 10px, rgb(8, 120, 165) 40px,
     rgb(14, 1, 88) 30px);
+  }
+
+  .next:hover {
+    color: #990000;
   }
 
 //footer
