@@ -34,8 +34,13 @@
       'imawoikiru,imawotaisetunisuru',
       'hitohahito,jibunnhajibunn',
       'jibunnnokimotiwotaisetuni',
-      'anatanokawarihadarenimodekinai',
-
+      'anatanokawarihadokonimoinai',
+      'kokoroniusohatukenai',
+      'iijann!sippaisitemosinuwakejanaisi',
+      'kuraiheyadehitorinayamukotohayameyou',
+      'sinnjirebahareru',
+      'mottowarattemitemoiinnjanai?',
+      'harewataruhimoamenohimo'
 
 
     ];
@@ -55,7 +60,14 @@
       '今を生きる、今を大切にする',
       '人は人、自分は自分',
       '自分の気持ちを大切に',
-      'あなたの代わりは誰にもできない'
+      'あなたの代わりはどこにもいない',
+      '心に嘘はつけない',
+      'いいじゃん！失敗しても死ぬわけじゃないし',
+      '暗い部屋でひとり悩むことはやめよう',
+      '信じれば晴れる',
+      'もっと笑ってみてもいいんじゃない？',
+      '晴れわたる日も雨の日も'
+
 
 
 
@@ -143,7 +155,7 @@
           isPlayEnd = true;
 
           const video = document.getElementById('video-area');
-          video.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" src="/videos/ending.mov"></video>';
+          video.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" class="ending_video" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
           target.innerHTML = '';
 
