@@ -46,6 +46,18 @@ h2.second_title {
   font-size: 25px;
 }
 
+.kkk {
+  border-radius: 120% 3% 120% 0;
+  margin: 30px;
+  width: 100px;
+  height: 120px;
+  transform: rotate(50deg);
+  border: ridge rgba(73, 71, 71, 0.548);
+  background:
+  repeating-linear-gradient(90deg, rgb(0, 174, 255) 10px, rgb(8, 120, 165) 40px,
+    rgb(14, 1, 88) 30px);
+  }
+
 //footer
 
 .footer-table {
