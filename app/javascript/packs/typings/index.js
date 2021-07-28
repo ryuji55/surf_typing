@@ -40,7 +40,9 @@
       'kuraiheyadehitorinayamukotohayameyou',
       'sinnjirebahareru',
       'mottowarattemitemoiinnjanai?',
-      'harewataruhimoamenohimo'
+      'harewataruhimoamenohimo',
+      'mottokatanotikarawonukutosubeteumakuiku',
+      'arinomamanoanatagasutekidesu'
 
 
     ];
@@ -66,7 +68,9 @@
       '暗い部屋でひとり悩むことはやめよう',
       '信じれば晴れる',
       'もっと笑ってみてもいいんじゃない？',
-      '晴れわたる日も雨の日も'
+      '晴れわたる日も雨の日も',
+      'もっと肩の力を抜くと全てうまくいく',
+      'ありのままのあなたが素敵です'
 
 
 
