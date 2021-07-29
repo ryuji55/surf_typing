@@ -134,7 +134,7 @@
     });
 
     //タイピングゲーム中
-    document.addEventListener('keydown', e => {
+    document.addEventListener('keypress', e => {
       if (isPlayEnd === true) {
         return;
       }
