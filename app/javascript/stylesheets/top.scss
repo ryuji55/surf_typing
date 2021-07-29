@@ -54,7 +54,7 @@ h2.second_title {
     rgb(14, 1, 88) 30px);
   }
 
-  .next:hover {
+.next:hover {
     color: #FFD700;
   }
 
@@ -62,21 +62,20 @@ h2.second_title {
 
 .footer-table {
   font-size: 10px;
-  text-align: center;
-  margin-left: 30px;
+  padding-top: 25px;
 }
 
 .col-sm-6 col-12 {
   display: table;
+  text-align: center;
 }
 
 .copyright {
-  display: table-cell;
-  color: #FFFF99;
+  color: #BBBBBB;
+  text-align: center;
 }
 
 .twitter-icon {
-  display: table-cell;
   padding-left: 10px;
   font-size: 10px;
 }
@@ -90,11 +89,11 @@ h2.second_title {
 }
 
 .footer_link {
-  color: #000033;
+  color: #BBBBBB;
 }
 
 .footer_link:hover {
-  color: #990000;
+  color: #555555;
 }
 
 a {
