@@ -122,6 +122,16 @@
     });
 
     //escでリトライ
+    document.addEventListener('keyup', e => {
+      if (isPlayEnd === true) {
+        return;
+      }
+
+      if (e.keyCode === 27) {
+        location.reload(false);
+      return;
+      }
+    });
 
     //タイピングゲーム中
     document.addEventListener('keydown', e => {
