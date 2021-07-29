@@ -102,9 +102,7 @@
 
     const sound = new Audio("data:audio/mp3;base64," + base64);
 
-
-
-    result.textContent = 'キーボードをタイプで開始!!';
+    result.textContent = 'キーボードをタイプで開始!! プレイ中ESCキーでリトライ!!';
 
     //ゲームスタート
     document.addEventListener('keyup', () => {
