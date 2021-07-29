@@ -106,7 +106,7 @@
 
     result.textContent = 'キーボードをタイプで開始!!';
 
-
+    //ゲームスタート
     document.addEventListener('keyup', () => {
       if (isPlaying === true) {
         return;
@@ -119,12 +119,19 @@
       },1000);
       startTime = Date.now();
       setWord();
-
     });
 
+    //escでリトライ
+
+    //タイピングゲーム中
     document.addEventListener('keydown', e => {
       if (isPlayEnd === true) {
         return;
+      }
+
+      if (e.keyCode === 27) {
+        location.reload(false);
+      return;
       }
 
       if (e.key !== word[loc]) {
@@ -148,11 +155,12 @@
         setWord();
       }
     });
+
+    //結果表示
     document.addEventListener('keyup', () => {
       if (isPlayEnd === true) {
         return;
       }
-
 
         if (time <= 0) {
 
