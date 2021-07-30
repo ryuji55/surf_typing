@@ -42,7 +42,10 @@
       'mottowarattemitemoiinnjanai?',
       'harewataruhimoamenohimo',
       'mottokatanotikarawonukutosubeteumakuiku',
-      'arinomamanoanatagasutekidesu'
+      'arinomamanoanatagasutekidesu',
+      'maewomuiteinaitonaminihanorenai',
+      'kanasikutemodaijoubu!soregahitowohukakusuru'
+
 
 
     ];
@@ -70,7 +73,9 @@
       'もっと笑ってみてもいいんじゃない？',
       '晴れわたる日も雨の日も',
       'もっと肩の力を抜くと全てうまくいく',
-      'ありのままのあなたが素敵です'
+      'ありのままのあなたが素敵です',
+      '前を向いていないと波には乗れない',
+      '悲しくても大丈夫！それが人を深くする'
 
 
 
