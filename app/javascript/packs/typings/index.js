@@ -45,7 +45,7 @@
       'arinomamanoanatagasutekidesu',
       'maewomuiteinaitonaminihanorenai',
       'kanasikutemodaijoubu!soregahitowohukakusuru',
-      'amegahurukaranizimoderu'
+      'amegahurukaranijimoderu'
 
 
 
