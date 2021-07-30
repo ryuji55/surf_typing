@@ -25,10 +25,9 @@
   width: 100vw;
 }
 
-.ending::after {
+.ending:after {
 	content: '';
 	display: block;
-	position: absolute;
 	top: 0;
 	right: 0;
 	width: 100%;

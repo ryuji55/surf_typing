@@ -7,10 +7,9 @@
   width: 100vw;
 }
 
-.top_video::after {
+.top_video:after {
 	content: '';
 	display: block;
-	position: absolute;
 	top: 0;
 	right: 0;
 	width: 100%;
