@@ -185,7 +185,7 @@
           target.innerHTML = '';
 
           const link = document.querySelector('.twitter-share');
-          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=Time60秒で正タイプ数${count}文字、誤タイプ数${missCount}文字でした。あなたに贈る言葉：『${wordJp}』&hashtags=SurfTyping,海,タイピングゲーム,ギター&lang=ja`;
+          const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=60秒間で正タイプ数${count}文字、誤タイプ数${missCount}文字でした。あなたに贈る言葉：『${wordJp}』&hashtags=海,タイピングゲーム,ギター,前向き&lang=ja`;
 
           link.setAttribute('href', url);
 
