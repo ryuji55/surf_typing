@@ -44,7 +44,7 @@
       'mottokatanotikarawonukutosubeteumakuiku',
       'arinomamanoanatagasutekidesu',
       'maewomuiteinaitonaminihanorenai',
-      'kanasikutemodaijoubu!soregahitowohukakusuru',
+      'kanasikutemodaijoubu!kanasimigahitowohukakusuru',
       'amegahurukaranijimoderu',
       'jibunnwoaisurukarahitowoaiseru'
 
@@ -77,7 +77,7 @@
       'もっと肩の力を抜くと全てうまくいく',
       'ありのままのあなたが素敵です',
       '前を向いていないと波には乗れない',
-      '悲しくても大丈夫！それが人を深くする',
+      '悲しくても大丈夫！悲しみが人を深くする',
       '雨が降るから虹もでる',
       '自分を愛するから人を愛せる'
 
