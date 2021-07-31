@@ -6,7 +6,7 @@
   z-index: -1;/*最背面に設定*/
 }
 
-.typing_video::after {
+.typing_video:after {
 	content: '';
 	display: block;
 	top: 0;
