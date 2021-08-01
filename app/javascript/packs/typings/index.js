@@ -48,7 +48,8 @@
       'amegahurukaranijimoderu',
       'jibunnwoaisurukarahitowoaiseru',
       'mayottarajibunnwosukideirareruhouwoerabu',
-      'kekkawosugunimotomenaiatokaratuitekurumonodakara'
+      'kekkawosugunimotomenaiatokaratuitekurumonodakara',
+      'umakudekinakutemoii!kokorowokomeru'
 
 
 
@@ -83,7 +84,8 @@
       '雨が降るから虹もでる',
       '自分を愛するから人を愛せる',
       '迷ったら自分を好きでいられる方を選ぶ',
-      '結果をすぐに求めない後からついてくる物だから'
+      '結果をすぐに求めない後からついてくる物だから',
+      'うまくできなくてもいい！心を込める'
 
 
 
