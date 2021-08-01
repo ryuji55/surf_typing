@@ -50,7 +50,8 @@
       'mayottarajibunnwosukideirareruhouwoerabu',
       'kekkawosugunimotomenaiatokaratuitekurumonodakara', //30
       'umakudekinakutemoii!kokorowokomeru',
-      'imasinutositarakoremadenojinnseiwodouomou?'
+      'imasinutositarakoremadenojinnseiwodouomou?',
+      'anatatosukinahitogasiawasedeiremasuyouni'
 
 
 
@@ -87,7 +88,8 @@
       '迷ったら自分を好きでいられる方を選ぶ',
       '結果をすぐに求めない後からついてくる物だから',  //30
       'うまくできなくてもいい！心を込める',
-      '今死ぬとしたらこれまでの人生をどう思う？'
+      '今死ぬとしたらこれまでの人生をどう思う？',
+      'あなたと好きな人が幸せでいれますように'
 
 
 
