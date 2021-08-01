@@ -28,7 +28,7 @@
       'utagauyorisinnjitemiyou',
       'mousugitakotohawasureyou',
       'siawasehaatarimaenonakaniaru',
-      'iikotohaiyanakotonoatoniyattekuru',
+      'iikotohaiyanakotonoatoniyattekuru', //10
       'kannsyanokimotiwowasurenai',
       'itumokokoroniaozorawo',
       'imawoikiru,imawotaisetunisuru',
@@ -38,7 +38,7 @@
       'kokoroniusohatukenai',
       'iijann!sippaisitemosinuwakejanaisi',
       'kuraiheyadehitorinayamukotohayameyou',
-      'sinnjirebahareru',
+      'sinnjirebahareru',  //20
       'mottowarattemitemoiinnjanai?',
       'harewataruhimoamenohimo',
       'mottokatanotikarawonukutosubeteumakuiku',
@@ -48,8 +48,9 @@
       'amegahurukaranijimoderu',
       'jibunnwoaisurukarahitowoaiseru',
       'mayottarajibunnwosukideirareruhouwoerabu',
-      'kekkawosugunimotomenaiatokaratuitekurumonodakara',
-      'umakudekinakutemoii!kokorowokomeru'
+      'kekkawosugunimotomenaiatokaratuitekurumonodakara', //30
+      'umakudekinakutemoii!kokorowokomeru',
+      'imasinutositarakoremadenojinnseiwodouomou?'
 
 
 
@@ -64,7 +65,7 @@
       '疑うより信じてみよう',
       'もう過ぎたことは忘れよう',
       '幸せは当たり前の中にある',
-      'いい事は嫌な事の後にやってくる',
+      'いい事は嫌な事の後にやってくる',  //10
       '感謝の気持ちを忘れない',
       'いつも心に青空を',
       '今を生きる、今を大切にする',
@@ -74,7 +75,7 @@
       '心に嘘はつけない',
       'いいじゃん！失敗しても死ぬわけじゃないし',
       '暗い部屋でひとり悩むことはやめよう',
-      '信じれば晴れる',
+      '信じれば晴れる',  //20
       'もっと笑ってみてもいいんじゃない？',
       '晴れわたる日も雨の日も',
       'もっと肩の力を抜くと全てうまくいく',
@@ -84,8 +85,9 @@
       '雨が降るから虹もでる',
       '自分を愛するから人を愛せる',
       '迷ったら自分を好きでいられる方を選ぶ',
-      '結果をすぐに求めない後からついてくる物だから',
-      'うまくできなくてもいい！心を込める'
+      '結果をすぐに求めない後からついてくる物だから',  //30
+      'うまくできなくてもいい！心を込める',
+      '今死ぬとしたらこれまでの人生をどう思う？'
 
 
 
