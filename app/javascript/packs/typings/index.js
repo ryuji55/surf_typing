@@ -55,7 +55,8 @@
       'itumoimairubasyokaramaewomuku',
       'imajibunnnidekirukotokarahajimeru',
       'mottotyousennsiyou',
-      'dousitemoyurusenaitokihayurusenaijibunnwoyurusou'
+      'dousitemoyurusenaitokihayurusenaijibunnwoyurusou',
+      'kakodehanakumiraitomukiau'
 
 
 
@@ -97,7 +98,8 @@
       'いつも今いる場所から前を向く',
       '今自分にできる事から始める',
       'もっと挑戦しよう',
-      'どうしても許せないときは許せない自分を許そう'
+      'どうしても許せないときは許せない自分を許そう',
+      '過去ではなく未来と向き合う'
 
 
 
