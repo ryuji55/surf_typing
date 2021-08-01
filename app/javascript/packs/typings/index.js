@@ -51,7 +51,9 @@
       'kekkawosugunimotomenaiatokaratuitekurumonodakara', //30
       'umakudekinakutemoii!kokorowokomeru',
       'imasinutositarakoremadenojinnseiwodouomou?',
-      'anatatosukinahitogasiawasedeiremasuyouni'
+      'anatatosukinahitogasiawasedeiremasuyouni',
+      'itumoimairubasyokaramaewomuku',
+      'imajibunnnidekirukotokarahajimeru'
 
 
 
@@ -89,7 +91,9 @@
       '結果をすぐに求めない後からついてくる物だから',  //30
       'うまくできなくてもいい！心を込める',
       '今死ぬとしたらこれまでの人生をどう思う？',
-      'あなたと好きな人が幸せでいれますように'
+      'あなたと好きな人が幸せでいれますように',
+      'いつも今いる場所から前を向く',
+      '今自分にできる事から始める'
 
 
 
