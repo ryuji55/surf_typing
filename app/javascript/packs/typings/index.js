@@ -53,7 +53,8 @@
       'imasinutositarakoremadenojinnseiwodouomou?',
       'anatatosukinahitogasiawasedeiremasuyouni',
       'itumoimairubasyokaramaewomuku',
-      'imajibunnnidekirukotokarahajimeru'
+      'imajibunnnidekirukotokarahajimeru',
+      'mottotyousennsiyou'
 
 
 
@@ -93,7 +94,8 @@
       '今死ぬとしたらこれまでの人生をどう思う？',
       'あなたと好きな人が幸せでいれますように',
       'いつも今いる場所から前を向く',
-      '今自分にできる事から始める'
+      '今自分にできる事から始める',
+      'もっと挑戦しよう'
 
 
 
