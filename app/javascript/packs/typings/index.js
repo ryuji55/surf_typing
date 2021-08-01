@@ -54,7 +54,8 @@
       'anatatosukinahitogasiawasedeiremasuyouni',
       'itumoimairubasyokaramaewomuku',
       'imajibunnnidekirukotokarahajimeru',
-      'mottotyousennsiyou'
+      'mottotyousennsiyou',
+      'dousitemoyurusenaitokihayurusenaijibunnwoyurusou'
 
 
 
@@ -95,7 +96,8 @@
       'あなたと好きな人が幸せでいれますように',
       'いつも今いる場所から前を向く',
       '今自分にできる事から始める',
-      'もっと挑戦しよう'
+      'もっと挑戦しよう',
+      'どうしても許せないときは許せない自分を許そう'
 
 
 
