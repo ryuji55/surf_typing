@@ -44,7 +44,7 @@
       'mottokatanotikarawonukutosubeteumakuiku',
       'arinomamanoanatagasutekidesu',
       'maewomuiteinaitonaminihanorenai',
-      'kanasikutemodaijoubu!kanasimigahitowohukakusuru',
+      'kanasikutemodaizyoubu!kanasimigahitowohukakusuru',
       'amegahurukaranijimoderu',
       'jibunnwoaisurukarahitowoaiseru',
       'mayottarajibunnwosukideirareruhouwoerabu',
@@ -56,7 +56,8 @@
       'imajibunnnidekirukotokarahajimeru',
       'mottotyousennsiyou',
       'dousitemoyurusenaitokihayurusenaijibunnwoyurusou',
-      'kakodehanakumiraitomukiau'
+      'kakodehanakumiraitomukiau',
+      'hituyouizyounonayamihakaminikakidasitesutetesimaou'
 
 
 
@@ -99,7 +100,8 @@
       '今自分にできる事から始める',
       'もっと挑戦しよう',
       'どうしても許せないときは許せない自分を許そう',
-      '過去ではなく未来と向き合う'
+      '過去ではなく未来と向き合う',
+      '必要以上の悩みは紙に書き出して捨ててしまおう'
 
 
 
