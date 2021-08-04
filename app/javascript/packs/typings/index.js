@@ -58,7 +58,8 @@
       'dousitemoyurusenaitokihayurusenaijibunnwoyurusou',
       'kakodehanakumiraitomukiau',
       'hituyouizyounonayamihakaminikakidasitesutetesimaou',
-      'sukinahitonosiawasewonegaeruwatasideiyou'
+      'sukinahitonosiawasewonegaeruwatasideiyou',
+      'yokuneteyokumanabiyokutabeteyokuasobu'
 
 
 
@@ -103,7 +104,8 @@
       'どうしても許せないときは許せない自分を許そう',
       '過去ではなく未来と向き合う',
       '必要以上の悩みは紙に書き出して捨ててしまおう',
-      '好きな人の幸せを願える私でいよう'
+      '好きな人の幸せを願える私でいよう',
+      'よく寝てよく学びよく食べてよく遊ぶ'
 
 
 
