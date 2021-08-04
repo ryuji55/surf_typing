@@ -57,7 +57,8 @@
       'mottotyousennsiyou',
       'dousitemoyurusenaitokihayurusenaijibunnwoyurusou',
       'kakodehanakumiraitomukiau',
-      'hituyouizyounonayamihakaminikakidasitesutetesimaou'
+      'hituyouizyounonayamihakaminikakidasitesutetesimaou',
+      'sukinahitonosiawasewonegaeruwatasideiyou'
 
 
 
@@ -101,7 +102,8 @@
       'もっと挑戦しよう',
       'どうしても許せないときは許せない自分を許そう',
       '過去ではなく未来と向き合う',
-      '必要以上の悩みは紙に書き出して捨ててしまおう'
+      '必要以上の悩みは紙に書き出して捨ててしまおう',
+      '好きな人の幸せを願える私でいよう'
 
 
 
