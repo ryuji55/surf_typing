@@ -71,8 +71,8 @@
         en: 'imawoikiru,imawotaisetunisuru'
       },
       {
-        jp: '人は人、自分は自分',
-        en: ['hitohahito,jibunnhajibunn','hitohahito,zibunnhazibunn']
+        jp: '人は人、自分と向き合う事を優先する',
+        en: ['hitohahito,jibunntomukiaukotowoyuusennsuru','hitohahito,zibunntomukiaukotowoyuusennsuru']
       },
       {
         jp: '自分の気持ちを大切に',
@@ -87,8 +87,8 @@
         en: 'kokoroniusohatukenai'
       },
       {
-        jp: 'いいじゃん！失敗しても死ぬわけじゃないし',
-        en: ['iijann!sippaisitemosinuwakejanaisi','iizyann!sippaisitemosinuwakezyanaisi']
+        jp: 'いいじゃん！失敗しても死ぬわけでもないし',
+        en: ['iijann!sippaisitemosinuwakedemonaisi','iizyann!sippaisitemosinuwakedemonaisi']
       },
       {
         jp: '暗い部屋でひとり悩むことはやめよう',
@@ -185,6 +185,10 @@
       {
         jp: '己の弱さと向き合う',
         en: 'onorenoyowasatomukiau'
+      },
+      {
+        jp: '強い人はみな優しい',
+        en: 'tuyoihitohaminayasasii'
       }
     ];
 
