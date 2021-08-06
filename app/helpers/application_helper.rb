@@ -17,13 +17,13 @@ module ApplicationHelper
         description: :description,
         type: 'website',
         url: request.original_url,
-        image: asset_pack_url("media/images/ogp.jpg"),
-        local: 'ja-JP',
+        image: asset_pack_url('media/images/ogp.jpg'),
+        local: 'ja-JP'
       },
       twitter: {
         card: 'summary_large_image',
         site: '@otokomigakimasu',
-        image: asset_pack_url("media/images/ogp.jpg"),
+        image: asset_pack_url('media/images/ogp.jpg')
       }
     }
   end

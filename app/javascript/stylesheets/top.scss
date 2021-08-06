@@ -1,9 +1,22 @@
-html,body{
+.video-fixed {
   overflow: hidden;
 }
 
-video {
+.top_video {
   z-index: -1;/*最背面に設定*/
+  width: 100vw;
+}
+
+.top_video::after {
+	content: '';
+	display: block;
+	top: 0;
+	right: 0;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.5);
+	background-image: radial-gradient(#111 30%, transparent 31%), radial-gradient(#111 30%, transparent 31%);
+	background-size: 4px 4px;
+	background-position: 0 0, 2px 2px;
 }
 
 .top-wrapper {
@@ -13,54 +26,88 @@ video {
 
 .top-inner-text {
   position: absolute;
-  top: 30%;
+  top: 20%;
   width: 100%;
   text-align: center;
   color: #fff;
   text-shadow: 0 0 15px #666;
+  font-size: 25px;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h1.top_title {
+  color: #55FFFF;
+  font-size: 40px;
+}
+
+h2.second_title {
+  font-size: 25px;
 }
 
 #volume {
-  color: red;
+  color: 	red;
 }
 
 .next {
-  text-decoration: none;
-  color: #FFFF99;
-  font-size: 20px;
-}
+  font-size: 40px;
+  color: #FFFF00;
+  border-radius: 120% 3% 120% 0;
+  margin: 30px;
+  width: 100px;
+  height: 120px;
+  transform: rotate(50deg);
+  border: ridge rgba(73, 71, 71, 0.548);
+  background:
+  repeating-linear-gradient(90deg, rgb(0, 174, 255) 10px, rgb(8, 120, 165) 40px,
+    rgb(14, 1, 88) 30px);
+  }
+
+.next:hover {
+    color: #FFD700;
+  }
 
 //footer
 
 .footer-table {
-  position: absolute;
-  top: 800px;
-  font-size: 5px;
-  text-align: left;
-  margin-left: 30px;
+  font-size: 15px;
+  padding-top: 25px;
 }
 
 .col-sm-6 col-12 {
   display: table;
+  text-align: center;
 }
 
 .copyright {
-  display: table-cell;
-  color: #FFFF99;
+  font-size: 20px;
+  color: #55FFFF;
+  text-align: center;
 }
 
 .twitter-icon {
-  display: table-cell;
   padding-left: 10px;
-  font-size: 10px;
+  font-size: 25px;
 }
 
 .share-button {
   color: #1da1f2;
+  font-size: 25px;
+}
+
+.share-button:hover {
+  color: #3366FF;
 }
 
 .footer_link {
-  color: #FFFF99;
+  color: #222222;
+}
+
+.footer_link:hover {
+  color: #000000;
 }
 
 a {

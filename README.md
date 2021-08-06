@@ -1,4 +1,4 @@
-# surfing_typing (名前未定)
+# Surf_Typing (サーフタイピング)
 
 # サービス概要
 
