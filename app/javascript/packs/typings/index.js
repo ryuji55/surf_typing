@@ -193,6 +193,10 @@
       {
         jp: 'あなたの事が大切で大好きです',
         en: 'anatanokotogataisetudedaisukidesu'
+      },
+      {
+        jp: 'あなたは間違っていない',
+        en: 'anatahamatigatteinai'
       }
     ];
 
