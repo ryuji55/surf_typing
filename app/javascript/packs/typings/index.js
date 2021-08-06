@@ -197,6 +197,14 @@
       {
         jp: 'あなたは間違っていない',
         en: 'anatahamatigatteinai'
+      },
+      {
+        jp: '悔しさをバネにして飛躍する',
+        en: 'kuyasisawobanenisitehiyakusuru'
+      },
+      {
+        jp: '失うから新しく得る事ができる',
+        en: 'usinaukaraatarasikuerukotogadekiru'
       }
     ];
 
@@ -320,7 +328,7 @@
         if(word.en == "" && word.jp == "") {
           return;
         }
-        
+
         if (e.key !== word.en[loc]) {
           //エラー音入れたい
           sound.play();
