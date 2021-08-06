@@ -189,6 +189,10 @@
       {
         jp: '強い人はみな優しい',
         en: 'tuyoihitohaminayasasii'
+      },
+      {
+        jp: 'あなたの事が大切で大好きです',
+        en: 'anatanokotogataisetudedaisukidesu'
       }
     ];
 
