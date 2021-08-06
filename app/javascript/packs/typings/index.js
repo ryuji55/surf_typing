@@ -266,21 +266,20 @@
         location.reload(false);
         return;
       }
-
+      //ローマ字の問題の中に配列のもののみに適用
       if (Array.isArray(word.en)) {
           //z,jだけの特例処理
-          debugger
                 if((e.key == "z") && (word.en[0][loc]=="j")) {
                   isKeyCode = 1;
                   loc++;
                   count++;
-                    targetEn.textContent = '_'.repeat(loc) + word.en[1].substring(loc);
+                  targetEn.textContent = '_'.repeat(loc) + word.en[1].substring(loc);
                   }
                 else if((e.key == "j") && (word.en[1][loc]=="z")) {
                   isKeyCode = 2;
                   loc++;
                   count++;
-                    targetEn.textContent = '_'.repeat(loc) + word.en[0].substring(loc)
+                  targetEn.textContent = '_'.repeat(loc) + word.en[0].substring(loc)
                   }
                 else if(((isKeyCode === 2 || isKeyCode === 0) && e.key !== word.en[0][loc]) || (isKeyCode === 1 && e.key !== word.en[1][loc])) {
                   //エラー音入れたい
@@ -317,10 +316,11 @@
                   setWord();
                 }}
       } else {
-        debugger
+
         if(word.en == "" && word.jp == "") {
           return;
         }
+        
         if (e.key !== word.en[loc]) {
           //エラー音入れたい
           sound.play();
