@@ -269,7 +269,6 @@
 
       if (Array.isArray(word.en)) {
           //z,jだけの特例処理
-          debugger
                 if((e.key == "z") && (word.en[0][loc]=="j")) {
                   isKeyCode = 1;
                   loc++;
@@ -317,7 +316,6 @@
                   setWord();
                 }}
       } else {
-        debugger
         if(word.en == "" && word.jp == "") {
           return;
         }
