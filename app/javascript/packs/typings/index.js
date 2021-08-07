@@ -57,7 +57,7 @@
       {
         jp: 'いい事は嫌な事の後にやってくる',
         en: 'iikotohaiyanakotonoatoniyattekuru'
-      },
+      }, //10
       {
         jp: '感謝の気持ちを忘れない',
         en: 'kannsyanokimotiwowasurenai'
@@ -101,7 +101,7 @@
       {
         jp: 'もっと笑ってみてもいいんじゃない？',
         en: ['mottowarattemitemoiinnjanai?','mottowarattemitemoiinnzyanai?']
-      },
+      }, //20
       {
         jp: '晴れわたる日も雨の日も',
         en: 'harewataruhimoamenohimo'
@@ -141,7 +141,7 @@
       {
         jp: 'うまくできなくてもいい！心を込める',
         en: 'umakudekinakutemoii!kokorowokomeru'
-      },
+      }, //30
       {
         jp: '今死ぬとしたらこれまでの人生をどう思う？',
         en: ['imasinutositarakoremadenojinnseiwodouomou?','imasinutositarakoremadenozinnseiwodouomou?']
@@ -181,7 +181,7 @@
       {
         jp: 'よく寝てよく学びよく食べてよく遊ぶ',
         en: 'yokuneteyokumanabiyokutabeteyokuasobu'
-      },
+      },  //30
       {
         jp: '己の弱さと向き合う',
         en: 'onorenoyowasatomukiau'
@@ -205,6 +205,22 @@
       {
         jp: '失うから新しく得る事ができる',
         en: 'usinaukaraatarasikuerukotogadekiru'
+      },
+      {
+        jp: 'まっすぐ生きよう',
+        en: 'massuguikiyou'
+      },
+      {
+        jp: '何があっても心身の健康を大切に',
+        en: 'nanigaattemosinnsinnnokennkouwotaisetuni'
+      },
+      {
+        jp: '不安な気持ちを味方にする',
+        en: 'huannnakimotiwomikatanisuru'
+      },
+      {
+        jp: '愛しているから別れる事もある',
+        en: 'aisiteirukarawakarerukotomoaru'
       }
     ];
 
