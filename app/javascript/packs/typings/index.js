@@ -219,8 +219,8 @@
         en: 'huannnakimotiwomikatanisuru'
       },
       {
-        jp: '愛しているから別れる事もある',
-        en: 'aisiteirukarawakarerukotomoaru'
+        jp: '好きだから別れる事もある',
+        en: 'sukidakarawakarerukotomoaru'
       }
     ];
 
