@@ -229,6 +229,14 @@
       {
         jp: '離れてもあなたの幸せを願う',
         en: 'hanaretemoanatanosiawasenegau'
+      },
+      {
+        jp: '僕だけをずっと見ていてくれてありがとう',
+        en: 'bokudakewozuttomiteitekuretearigatou'
+      },
+      {
+        jp: '君が笑ったときが好きだったから',
+        en: 'kimigawarattatokigasukidattakara'
       }
     ];
 
