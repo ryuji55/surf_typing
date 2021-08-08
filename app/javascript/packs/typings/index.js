@@ -207,8 +207,8 @@
         en: 'usinaukaraatarasikuerukotogadekiru'
       },
       {
-        jp: 'まっすぐ生きよう',
-        en: 'massuguikiyou'
+        jp: 'たまにこけちゃうくらいに真っ直ぐなあなたが好き',
+        en: 'tamanikoketyaukurainimassugunaanatagasuki'
       },
       {
         jp: '何があっても心身の健康を大切に',
@@ -221,6 +221,14 @@
       {
         jp: '好きだから別れる事もある',
         en: 'sukidakarawakarerukotomoaru'
+      }, //40
+      {
+        jp: '笑ってよせめて今だけ',
+        en: 'waratteyosemeteimadake'
+      },
+      {
+        jp: '離れてもあなたの幸せを願う',
+        en: 'hanaretemoanatanosiawasenegau'
       }
     ];
 
