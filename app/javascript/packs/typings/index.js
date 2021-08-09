@@ -241,6 +241,10 @@
       {
         jp: 'あたたかい優しさを心の中に持つ',
         en: 'atatakaiyasasisawokokorononakanimotu'
+      },
+      {
+        jp: 'これからの人生で今日より若い日は1日もない',
+        en: ['korekaranojinnseidekyouyoriwakaihihaitinitimonai','korekaranozinnseidekyouyoriwakaihihaitinitimonai']
       }
     ];
 
