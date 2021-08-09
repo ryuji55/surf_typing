@@ -245,6 +245,10 @@
       {
         jp: 'これからの人生で今日より若い日は1日もない',
         en: ['korekaranojinnseidekyouyoriwakaihihaitinitimonai','korekaranozinnseidekyouyoriwakaihihaitinitimonai']
+      },
+      {
+        jp: '一度止まって振り返ると正しいという字になる',
+        en: ['itidotomattehurikaerutotadasiitoiujininaru','itidotomattehurikaerutotadasiitoiuzininaru']
       }
     ];
 
