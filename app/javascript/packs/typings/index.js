@@ -237,6 +237,10 @@
       {
         jp: '君が笑ったときが好きだったから',
         en: 'kimigawarattatokigasukidattakara'
+      },
+      {
+        jp: 'あたたかい優しさを心の中に持つ',
+        en: 'atatakaiyasasisawokokorononakanimotu'
       }
     ];
 
