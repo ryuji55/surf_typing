@@ -257,7 +257,11 @@
       {
         jp: '心変わりを受け入れる度量を持つ',
         en: 'kokorogawariwoukeirerudoryouwomotu'
-      }
+      },
+      {
+        jp: 'ビビっていたら波には乗れない',
+        en: 'bibitteitaranaminihanorenai'
+      } //50
     ];
 
     let time = 60;
