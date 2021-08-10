@@ -261,7 +261,19 @@
       {
         jp: 'ビビっていたら波には乗れない',
         en: 'bibitteitaranaminihanorenai'
-      } //50
+      }, //50
+      {
+        jp: '夢や目標を生きがいにする',
+        en: 'yumeyamokuhyouwoikigainisuru'
+      },
+      {
+        jp: 'シンプルに生きてみる',
+        en: 'sinnpuruniikitemiru'
+      },
+      {
+        jp: '持っているものが自分を束縛する',
+        en: ['motteirumonogajibunnwosokubakusuru','motteirumonogazibunnwosokubakusuru']
+      }
     ];
 
     let time = 60;
