@@ -249,6 +249,10 @@
       {
         jp: '一度止まって振り返ると正しいという字になる',
         en: ['itidotomattehurikaerutotadasiitoiujininaru','itidotomattehurikaerutotadasiitoiuzininaru']
+      },
+      {
+        jp: 'カッコつけないカッコ良さがある',
+        en: 'kakkotukenaikakkoyosagaaru'
       }
     ];
 
