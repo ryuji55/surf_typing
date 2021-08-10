@@ -228,7 +228,7 @@
       },
       {
         jp: '離れてもあなたの幸せを願う',
-        en: 'hanaretemoanatanosiawasenegau'
+        en: 'hanaretemoanatanosiawasewonegau'
       },
       {
         jp: '僕だけをずっと見ていてくれてありがとう',
