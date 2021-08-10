@@ -223,8 +223,8 @@
         en: 'sukidakarawakarerukotomoaru'
       }, //40
       {
-        jp: '笑ってよせめて今だけ',
-        en: 'waratteyosemeteimadake'
+        jp: '笑ってよ！せめて今だけでも',
+        en: 'waratteyo!semeteimadakedemo'
       },
       {
         jp: '離れてもあなたの幸せを願う',
@@ -253,6 +253,10 @@
       {
         jp: 'カッコつけないカッコ良さがある',
         en: 'kakkotukenaikakkoyosagaaru'
+      },
+      {
+        jp: '心変わりを受け入れる度量を持つ',
+        en: 'kokorogawariwoukeirerudoryouwomotu'
       }
     ];
 
