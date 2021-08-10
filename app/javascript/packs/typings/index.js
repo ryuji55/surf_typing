@@ -269,10 +269,6 @@
       {
         jp: 'シンプルに生きてみる',
         en: 'sinnpuruniikitemiru'
-      },
-      {
-        jp: '持っているものが自分を束縛する',
-        en: ['motteirumonogajibunnwosokubakusuru','motteirumonogazibunnwosokubakusuru']
       }
     ];
 
