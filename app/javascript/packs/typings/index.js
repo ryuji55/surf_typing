@@ -269,6 +269,10 @@
       {
         jp: 'シンプルに生きてみる',
         en: 'sinnpuruniikitemiru'
+      },
+      {
+        jp: '不快感から目を背けず向き合う',
+        en: 'hukaikannkaramewosomukezumukiau'
       }
     ];
 
