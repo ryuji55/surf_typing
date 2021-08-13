@@ -2,6 +2,7 @@
 
   {
     //初期設定
+
     function setWord() {
       timer.textContent = 'Time:' + time;
       random = Math.floor(Math.random() * words.length);
@@ -273,6 +274,10 @@
       {
         jp: '不快感から目を背けず向き合う',
         en: 'hukaikannkaramewosomukezumukiau'
+      },
+      {
+        jp: '朝は起きるにかぎる',
+        en: 'asahaokiruniagiru'
       }
     ];
 
