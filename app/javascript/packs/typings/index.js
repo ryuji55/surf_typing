@@ -277,7 +277,7 @@
       },
       {
         jp: '朝は起きるにかぎる',
-        en: 'asahaokiruniagiru'
+        en: 'asahaokirunikagiru'
       }
     ];
 
