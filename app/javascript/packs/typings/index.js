@@ -280,8 +280,8 @@
         en: 'asahaokirunikagiru'
       },
       {
-        jp: '海のように心の広い人になろう',
-        en: 'uminoyounikokoronohiroihitoninarou'
+        jp: '海のように心を広く大きくしていこう',
+        en: 'uminoyounikokorowohirokuookikusiteikou'
       }
     ];
 
