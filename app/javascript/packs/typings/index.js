@@ -278,6 +278,10 @@
       {
         jp: '朝は起きるにかぎる',
         en: 'asahaokirunikagiru'
+      },
+      {
+        jp: '海のように心の広い人になろう',
+        en: 'uminoyounikokoronohiroihitoninarou'
       }
     ];
 
