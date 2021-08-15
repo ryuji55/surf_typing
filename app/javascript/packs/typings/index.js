@@ -282,6 +282,10 @@
       {
         jp: '海のように心を広く大きくしていこう',
         en: 'uminoyounikokorowohirokuookikusiteikou'
+      },
+      {
+        jp: 'ときにはノリと勢いを大切にしてみる',
+        en: 'tokinihanoritoikioiwotaisetunisitemiru'
       }
     ];
 
