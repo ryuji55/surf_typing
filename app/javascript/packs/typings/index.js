@@ -284,8 +284,8 @@
         en: 'uminoyounikokorowohirokuookikusiteikou'
       },
       {
-        jp: 'ときにはノリと勢いを大切にしてみる',
-        en: 'tokinihanoritoikioiwotaisetunisitemiru'
+        jp: '面白くしたいならノリと勢いを大切にする',
+        en: 'omosirokusitainaranoritoikioiwotaisetunisuru'
       }
     ];
 
