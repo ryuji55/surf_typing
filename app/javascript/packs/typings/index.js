@@ -286,6 +286,10 @@
       {
         jp: '面白くしたいならノリと勢いを大切にする',
         en: 'omosirokusitainaranoritoikioiwotaisetunisuru'
+      },
+      {
+        jp: '本音で話し合える仲間は宝物',
+        en: 'honnnedehanasiaerunakamahatakaramono'
       }
     ];
 
