@@ -290,6 +290,10 @@
       {
         jp: '本音で話し合える仲間は宝物',
         en: 'honnnedehanasiaerunakamahatakaramono'
+      },
+      {
+        jp: '今笑えてるのは一緒に泣いてくれた君がいたから',
+        en: 'imawaraeterunohaissyoninaitekuretakimigaitakara'
       }
     ];
 
