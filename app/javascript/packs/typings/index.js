@@ -296,8 +296,8 @@
         en: 'imawaraeterunohaissyoninaitekuretakimigaitakara'
       },
       {
-        jp: '辛い経験をよかったと言えるように日々を過ごす',
-        en: 'turaikeikennwoyokattatoieruyounihibiwosugosu'
+        jp: '辛い経験をよかったと言えるような日々を過ごす',
+        en: 'turaikeikennwoyokattatoieruyounahibiwosugosu'
       }
     ];
 
