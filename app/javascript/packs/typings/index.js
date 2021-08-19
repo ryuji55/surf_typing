@@ -294,6 +294,10 @@
       {
         jp: '今笑えてるのは一緒に泣いてくれた君がいたから',
         en: 'imawaraeterunohaissyoninaitekuretakimigaitakara'
+      },
+      {
+        jp: '辛い経験をよかったと言えるように日々を過ごす',
+        en: 'turaikeikennwoyokattatoieruyounihibiwosugosu'
       }
     ];
 
