@@ -298,6 +298,10 @@
       {
         jp: '辛い経験をよかったと言えるような日々を過ごす',
         en: 'turaikeikennwoyokattatoieruyounahibiwosugosu'
+      },
+      {
+        jp: 'それを素敵と思えるあなたが素敵',
+        en: 'sorewosutekitoomoeruanatagasuteki'
       }
     ];
 
