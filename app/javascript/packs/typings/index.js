@@ -302,6 +302,10 @@
       {
         jp: 'それを素敵と思えるあなたが素敵',
         en: 'sorewosutekitoomoeruanatagasuteki'
+      },
+      {
+        jp: '痛みから逃げずに受け入れると成長できる',
+        en: 'itamikaranigezuniukeirerutoseityoudekiru'
       }
     ];
 
