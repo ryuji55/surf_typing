@@ -306,6 +306,14 @@
       {
         jp: '痛みから逃げずに受け入れると成長できる',
         en: 'itamikaranigezuniukeirerutoseityoudekiru'
+      },
+      {
+        jp: '否定される事に慣れないと成長は望めない',
+        en: 'hiteisarerukotoninarenaitoseityouhanozomenai'
+      },
+      {
+        jp: '日々努力、日々成長',
+        en: 'hibidoryoku,hibiseityou'
       }
     ];
 
