@@ -314,6 +314,10 @@
       {
         jp: '日々努力、日々成長',
         en: 'hibidoryoku,hibiseityou'
+      },
+      {
+        jp: '自信は表に出すのではなく内に秘めておく',
+        en: ['jisinnhaomotenidasunodehanakuutinihimeteoku','zisinnhaomotenidasunodehanakuutinihimeteoku']
       }
     ];
 
