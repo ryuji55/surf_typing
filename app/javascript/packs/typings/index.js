@@ -318,6 +318,10 @@
       {
         jp: '自信は表に出すのではなく内に秘めておく',
         en: ['jisinnhaomotenidasunodehanakuutinihimeteoku','zisinnhaomotenidasunodehanakuutinihimeteoku']
+      },
+      {
+        jp: '信じるのでも疑うのでもなく確かめてみる',
+        en: ['sinnjirunodemoutagaunodemonakutasikametemiru','sinnzirunodemoutagaunodemonakutasikametemiru']
       }
     ];
 
