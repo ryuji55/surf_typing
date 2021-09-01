@@ -322,6 +322,10 @@
       {
         jp: '信じるのでも疑うのでもなく確かめてみる',
         en: ['sinnjirunodemoutagaunodemonakutasikametemiru','sinnzirunodemoutagaunodemonakutasikametemiru']
+      },
+      {
+        jp: 'あなたにとって私もそうでありたい',
+        en: 'anatanitottewatasimosoudearitai'
       }
     ];
 
