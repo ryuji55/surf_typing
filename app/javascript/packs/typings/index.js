@@ -2,6 +2,7 @@
 
   {
     //初期設定
+
     function setWord() {
       timer.textContent = 'Time:' + time;
       random = Math.floor(Math.random() * words.length);
@@ -57,7 +58,7 @@
       {
         jp: 'いい事は嫌な事の後にやってくる',
         en: 'iikotohaiyanakotonoatoniyattekuru'
-      },
+      }, //10
       {
         jp: '感謝の気持ちを忘れない',
         en: 'kannsyanokimotiwowasurenai'
@@ -101,7 +102,7 @@
       {
         jp: 'もっと笑ってみてもいいんじゃない？',
         en: ['mottowarattemitemoiinnjanai?','mottowarattemitemoiinnzyanai?']
-      },
+      }, //20
       {
         jp: '晴れわたる日も雨の日も',
         en: 'harewataruhimoamenohimo'
@@ -141,7 +142,7 @@
       {
         jp: 'うまくできなくてもいい！心を込める',
         en: 'umakudekinakutemoii!kokorowokomeru'
-      },
+      }, //30
       {
         jp: '今死ぬとしたらこれまでの人生をどう思う？',
         en: ['imasinutositarakoremadenojinnseiwodouomou?','imasinutositarakoremadenozinnseiwodouomou?']
@@ -181,7 +182,7 @@
       {
         jp: 'よく寝てよく学びよく食べてよく遊ぶ',
         en: 'yokuneteyokumanabiyokutabeteyokuasobu'
-      },
+      },  //30
       {
         jp: '己の弱さと向き合う',
         en: 'onorenoyowasatomukiau'
@@ -197,6 +198,134 @@
       {
         jp: 'あなたは間違っていない',
         en: 'anatahamatigatteinai'
+      },
+      {
+        jp: '悔しさをバネにして飛躍する',
+        en: 'kuyasisawobanenisitehiyakusuru'
+      },
+      {
+        jp: '失うから新しく得る事ができる',
+        en: 'usinaukaraatarasikuerukotogadekiru'
+      },
+      {
+        jp: 'たまにこけちゃうくらいに真っ直ぐなあなたが好き',
+        en: 'tamanikoketyaukurainimassugunaanatagasuki'
+      },
+      {
+        jp: '何があっても心身の健康を大切に',
+        en: 'nanigaattemosinnsinnnokennkouwotaisetuni'
+      },
+      {
+        jp: '不安な気持ちを味方にする',
+        en: 'huannnakimotiwomikatanisuru'
+      },
+      {
+        jp: '好きだから別れる事もある',
+        en: 'sukidakarawakarerukotomoaru'
+      }, //40
+      {
+        jp: '笑ってよ！せめて今だけでも',
+        en: 'waratteyo!semeteimadakedemo'
+      },
+      {
+        jp: '離れてもあなたの幸せを願う',
+        en: 'hanaretemoanatanosiawasewonegau'
+      },
+      {
+        jp: '僕だけをずっと見ていてくれてありがとう',
+        en: 'bokudakewozuttomiteitekuretearigatou'
+      },
+      {
+        jp: '君が笑ったときが好きだったから',
+        en: 'kimigawarattatokigasukidattakara'
+      },
+      {
+        jp: 'あたたかい優しさを心の中に持つ',
+        en: 'atatakaiyasasisawokokorononakanimotu'
+      },
+      {
+        jp: 'これからの人生で今日より若い日は1日もない',
+        en: ['korekaranojinnseidekyouyoriwakaihihaitinitimonai','korekaranozinnseidekyouyoriwakaihihaitinitimonai']
+      },
+      {
+        jp: '一度止まって振り返ると正しいという字になる',
+        en: ['itidotomattehurikaerutotadasiitoiujininaru','itidotomattehurikaerutotadasiitoiuzininaru']
+      },
+      {
+        jp: 'カッコつけないカッコ良さがある',
+        en: 'kakkotukenaikakkoyosagaaru'
+      },
+      {
+        jp: '心変わりを受け入れる度量を持つ',
+        en: 'kokorogawariwoukeirerudoryouwomotu'
+      },
+      {
+        jp: 'ビビっていたら波には乗れない',
+        en: 'bibitteitaranaminihanorenai'
+      }, //50
+      {
+        jp: '夢や目標を生きがいにする',
+        en: 'yumeyamokuhyouwoikigainisuru'
+      },
+      {
+        jp: 'シンプルに生きてみる',
+        en: 'sinnpuruniikitemiru'
+      },
+      {
+        jp: '不快感から目を背けず向き合う',
+        en: 'hukaikannkaramewosomukezumukiau'
+      },
+      {
+        jp: '朝は起きるにかぎる',
+        en: 'asahaokirunikagiru'
+      },
+      {
+        jp: '海のように心を広く大きくしていこう',
+        en: 'uminoyounikokorowohirokuookikusiteikou'
+      },
+      {
+        jp: '面白くしたいならノリと勢いを大切にする',
+        en: 'omosirokusitainaranoritoikioiwotaisetunisuru'
+      },
+      {
+        jp: '本音で話し合える仲間は宝物',
+        en: 'honnnedehanasiaerunakamahatakaramono'
+      },
+      {
+        jp: '今笑えてるのは一緒に泣いてくれた君がいたから',
+        en: 'imawaraeterunohaissyoninaitekuretakimigaitakara'
+      },
+      {
+        jp: '辛い経験をよかったと言えるような日々を過ごす',
+        en: 'turaikeikennwoyokattatoieruyounahibiwosugosu'
+      },
+      {
+        jp: 'それを素敵と思えるあなたが素敵',
+        en: 'sorewosutekitoomoeruanatagasuteki'
+      },
+      {
+        jp: '痛みから逃げずに受け入れると成長できる',
+        en: 'itamikaranigezuniukeirerutoseityoudekiru'
+      },  //60
+      {
+        jp: '否定される事に慣れないと成長は望めない',
+        en: 'hiteisarerukotoninarenaitoseityouhanozomenai'
+      },
+      {
+        jp: '日々努力、日々成長',
+        en: 'hibidoryoku,hibiseityou'
+      },
+      {
+        jp: '自信は表に出すのではなく内に秘めておく',
+        en: ['jisinnhaomotenidasunodehanakuutinihimeteoku','zisinnhaomotenidasunodehanakuutinihimeteoku']
+      },
+      {
+        jp: '信じるのでも疑うのでもなく確かめてみる',
+        en: ['sinnjirunodemoutagaunodemonakutasikametemiru','sinnzirunodemoutagaunodemonakutasikametemiru']
+      },
+      {
+        jp: 'あなたにとって私もそうでありたい',
+        en: 'anatanitottewatasimosoudearitai'
       }
     ];
 
@@ -266,21 +395,20 @@
         location.reload(false);
         return;
       }
-
+      //ローマ字の問題の中に配列のもののみに適用
       if (Array.isArray(word.en)) {
           //z,jだけの特例処理
-          debugger
                 if((e.key == "z") && (word.en[0][loc]=="j")) {
                   isKeyCode = 1;
                   loc++;
                   count++;
-                    targetEn.textContent = '_'.repeat(loc) + word.en[1].substring(loc);
+                  targetEn.textContent = '_'.repeat(loc) + word.en[1].substring(loc);
                   }
                 else if((e.key == "j") && (word.en[1][loc]=="z")) {
                   isKeyCode = 2;
                   loc++;
                   count++;
-                    targetEn.textContent = '_'.repeat(loc) + word.en[0].substring(loc)
+                  targetEn.textContent = '_'.repeat(loc) + word.en[0].substring(loc)
                   }
                 else if(((isKeyCode === 2 || isKeyCode === 0) && e.key !== word.en[0][loc]) || (isKeyCode === 1 && e.key !== word.en[1][loc])) {
                   //エラー音入れたい
@@ -317,10 +445,11 @@
                   setWord();
                 }}
       } else {
-        debugger
+
         if(word.en == "" && word.jp == "") {
           return;
         }
+
         if (e.key !== word.en[loc]) {
           //エラー音入れたい
           sound.play();

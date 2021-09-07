@@ -1,4 +1,4 @@
-# Surf_Typing (サーフタイピング)
+# SurfTyping (サーフタイピング)
 
 # サービス概要
 
