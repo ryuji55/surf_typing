@@ -326,6 +326,10 @@
       {
         jp: 'あなたにとって私もそうでありたい',
         en: 'anatanitottewatasimosoudearitai'
+      },
+      {
+        jp: '今は信じて続けろ',
+        en: ['imahasinnjitetudukero','imahasinnzitetudukero']
       }
     ];
 
