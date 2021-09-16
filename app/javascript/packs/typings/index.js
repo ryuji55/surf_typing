@@ -334,6 +334,10 @@
       {
         jp: '己の人生に夢中になれば小さいことは気にならなくなる',
         en: ['onorenojinnseinimutyuuninarebatiisaikotohakininaranakunaru','onorenozinnseinimutyuuninarebatiisaikotohakininaranakunaru']
+      },
+      {
+        jp: '仲間が困っていたら助ける',
+        en: 'nakamagakomatteitaratasukeru'
       }
     ];
 
