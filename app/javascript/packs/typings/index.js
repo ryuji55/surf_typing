@@ -326,6 +326,18 @@
       {
         jp: 'あなたにとって私もそうでありたい',
         en: 'anatanitottewatasimosoudearitai'
+      },
+      {
+        jp: '今は信じて続けろ',
+        en: ['imahasinnjitetudukero','imahasinnzitetudukero']
+      },
+      {
+        jp: '己の人生に夢中になれば小さいことは気にならなくなる',
+        en: ['onorenojinnseinimutyuuninarebatiisaikotohakininaranakunaru','onorenozinnseinimutyuuninarebatiisaikotohakininaranakunaru']
+      },
+      {
+        jp: '仲間が困っていたら助ける',
+        en: 'nakamagakomatteitaratasukeru'
       }
     ];
 
