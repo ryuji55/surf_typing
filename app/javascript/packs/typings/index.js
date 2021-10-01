@@ -340,8 +340,8 @@
         en: 'nakamagakomatteitaratasukeru'
       },//80
       {
-        jp: '完璧なんてよくない成るようになるケセラセラ',
-        en: 'kannpekinannteyokunainaruyouninarukeserasera'
+        jp: '完璧なんてよくない成るようになる',
+        en: 'kannpekinannteyokunainaruyouninaru'
       },
       {
         jp: '挑戦するのに遅すぎることはない',
