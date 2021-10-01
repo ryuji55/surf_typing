@@ -340,16 +340,8 @@
         en: 'nakamagakomatteitaratasukeru'
       },//80
       {
-        jp: '完璧なんてよくない成るようになる',
-        en: 'kannpekinannteyokunainaruyouninaru'
-      },
-      {
-        jp: '挑戦するのに遅すぎることはない',
-        en: 'tyousennsurunoniososugirukotohanai'
-      },
-      { 
-        jp: 'どんな出来事からも学ぶ姿勢を忘れない',
-        en: 'donnnadekigotokaramomanabusiseiwowasurenai'
+        jp: '完璧なんてよくない成るようになるケセラセラ',
+        en: 'kannpekinannteyokunainaruyouninarukeserasera'
       }
     ];
 
