@@ -342,6 +342,14 @@
       {
         jp: '完璧なんてよくない成るようになるケセラセラ',
         en: 'kannpekinannteyokunainaruyouninarukeserasera'
+      },
+      {
+        jp: '挑戦するのに遅すぎることはない',
+        en: 'tyousennsurunoniososugirukotohanai'
+      },
+      {
+        jp: 'どんな出来事からも学ぶ姿勢を忘れない',
+        en: 'donnnadekigotokaramomanabusiseiwowasurenai'
       }
     ];
 
