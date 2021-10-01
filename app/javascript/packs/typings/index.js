@@ -62,7 +62,7 @@
       {
         jp: '感謝の気持ちを忘れない',
         en: 'kannsyanokimotiwowasurenai'
-      }, //10
+      },
       {
         jp: 'いつも心に青空を',
         en: 'itumokokoroniaozorawo'
@@ -98,11 +98,11 @@
       {
         jp: '信じれば晴れる',
         en: ['sinnjirebahareru','sinnzirebahareru']
-      },
+      },//20
       {
         jp: 'もっと笑ってみてもいいんじゃない？',
         en: ['mottowarattemitemoiinnjanai?','mottowarattemitemoiinnzyanai?']
-      }, //20
+      },
       {
         jp: '晴れわたる日も雨の日も',
         en: 'harewataruhimoamenohimo'
@@ -138,11 +138,11 @@
       {
         jp: '結果をすぐに求めない後からついてくる物だから',
         en: 'kekkawosugunimotomenaiatokaratuitekurumonodakara'
-      },
+      },//30
       {
         jp: 'うまくできなくてもいい！心を込める',
         en: 'umakudekinakutemoii!kokorowokomeru'
-      }, //30
+      },
       {
         jp: '今死ぬとしたらこれまでの人生をどう思う？',
         en: ['imasinutositarakoremadenojinnseiwodouomou?','imasinutositarakoremadenozinnseiwodouomou?']
@@ -178,11 +178,11 @@
       {
         jp: '好きな人の幸せを願える私でいよう',
         en: 'sukinahitonosiawasewonegaeruwatasideiyou'
-      },
+      },//40
       {
         jp: 'よく寝てよく学びよく食べてよく遊ぶ',
         en: 'yokuneteyokumanabiyokutabeteyokuasobu'
-      },  //30
+      },
       {
         jp: '己の弱さと向き合う',
         en: 'onorenoyowasatomukiau'
@@ -218,11 +218,11 @@
       {
         jp: '不安な気持ちを味方にする',
         en: 'huannnakimotiwomikatanisuru'
-      },
+      },//50
       {
         jp: '好きだから別れる事もある',
         en: 'sukidakarawakarerukotomoaru'
-      }, //40
+      },
       {
         jp: '笑ってよ！せめて今だけでも',
         en: 'waratteyo!semeteimadakedemo'
@@ -258,11 +258,11 @@
       {
         jp: '心変わりを受け入れる度量を持つ',
         en: 'kokorogawariwoukeirerudoryouwomotu'
-      },
+      },//60
       {
         jp: 'ビビっていたら波には乗れない',
         en: 'bibitteitaranaminihanorenai'
-      }, //50
+      },
       {
         jp: '夢や目標を生きがいにする',
         en: 'yumeyamokuhyouwoikigainisuru'
@@ -298,7 +298,7 @@
       {
         jp: '辛い経験をよかったと言えるような日々を過ごす',
         en: 'turaikeikennwoyokattatoieruyounahibiwosugosu'
-      },
+      },//70
       {
         jp: 'それを素敵と思えるあなたが素敵',
         en: 'sorewosutekitoomoeruanatagasuteki'
@@ -306,7 +306,7 @@
       {
         jp: '痛みから逃げずに受け入れると成長できる',
         en: 'itamikaranigezuniukeirerutoseityoudekiru'
-      },  //60
+      },
       {
         jp: '否定される事に慣れないと成長は望めない',
         en: 'hiteisarerukotoninarenaitoseityouhanozomenai'
@@ -338,6 +338,18 @@
       {
         jp: '仲間が困っていたら助ける',
         en: 'nakamagakomatteitaratasukeru'
+      },//80
+      {
+        jp: '完璧なんてよくない成るようになる',
+        en: 'kannpekinannteyokunainaruyouninaru'
+      },
+      {
+        jp: '挑戦するのに遅すぎることはない',
+        en: 'tyousennsurunoniososugirukotohanai'
+      },
+      {
+        jp: 'どんな出来事からも学ぶ姿勢を忘れない',
+        en: 'donnnadekigotokaramomanabusiseiwowasurenai'
       }
     ];
 
