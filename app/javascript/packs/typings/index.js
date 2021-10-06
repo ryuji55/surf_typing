@@ -350,6 +350,10 @@
       {
         jp: 'どんな出来事からも学ぶ姿勢を忘れない',
         en: 'donnnadekigotokaramomanabusiseiwowasurenai'
+      },
+      {
+        jp: '同じ波は２度と来ない同じ日も２度と来ない',
+        en: ['onajinamihanidotokonaionajihimonidotokonai','onazinamihanidotokonaionazihimonidotokonai']
       }
     ];
 
