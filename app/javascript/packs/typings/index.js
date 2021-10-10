@@ -354,6 +354,10 @@
       {
         jp: '同じ波は２度と来ない同じ日も２度と来ない',
         en: ['onajinamihanidotokonaionajihimonidotokonai','onazinamihanidotokonaionazihimonidotokonai']
+      },
+      {
+        jp: '何かを得るという事は何かを捨てるという事',
+        en: 'nanikawoerutoiukotohananikawosuterutoiukoto' 
       }
     ];
 
