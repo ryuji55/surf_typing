@@ -358,6 +358,34 @@
       {
         jp: '何かを得るという事は何かを捨てるという事',
         en: 'nanikawoerutoiukotohananikawosuterutoiukoto' 
+      },
+      {
+        jp: '痛みから学べる事が驚くほどたくさんある',
+        en: 'itamikaramanaberukotogaodorokuhodotakusannaru' 
+      },
+      {
+        jp: '自信のあるフリをしていると自信がついてくる',
+        en: ['jisinnnoaruhuriwositeirutojisinngatuitekuru','zisinnnoaruhuriwositeirutozisinngatuitekuru']
+      },
+      {
+        jp: '己の人生の主人公として生きるんだよ',
+        en: ['onorenojinnseinosyujinnkoutositeikirunndayo','onorenozinnseinosyuzinnkoutositeikirunndayo']
+      },
+      {
+        jp: '己を変えるチャンスはいくらでもある',
+        en: 'onorewokaerutyansuhaikurademoaru'
+      },
+      {
+        jp: '積極的に攻めていこう',
+        en: 'sekkyokutekinisemeteikou'
+      },//90
+      {
+        jp: '時間がないお金がないと言う人はあってもやらない',
+        en: ['jikannganaiokaneganaitoiuhitohaattemoyaranai','zikannganaiokaneganaitoiuhitohaattemoyaranai'] 
+      },
+      {
+        jp: '本気で取り組むときは前向きな言葉を使おう',
+        en: 'honnkidetorikumutokihamaemukinakotobawotukaou' 
       }
     ];
 
