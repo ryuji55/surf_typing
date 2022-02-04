@@ -386,6 +386,14 @@
       {
         jp: '本気で取り組むときは前向きな言葉を使おう',
         en: 'honnkidetorikumutokihamaemukinakotobawotukaou' 
+      },
+      {
+        jp: '物事にいいも悪いもないあるのは捉え方だけ',
+        en: 'monogotoniiimowaruimonaiarunohatoraekatadake'
+      },
+      {
+        jp: '努力をすれば成功は必ずしないが成長は必ずする',
+        en: 'doryokuwosurebaseikouhakanarazusinaigaseityouhakanarazusuru'
       }
     ];
 
