@@ -414,7 +414,7 @@
 
     const typeMiss = document.getElementById('typeMiss');
 
-    const target = document.getElementById('targetEn');
+    const targetEn = document.getElementById('targetEn');
 
     const targetJp = document.getElementById('targetJp');
 
@@ -554,7 +554,7 @@
           const video = document.getElementById('video-area');
           video.innerHTML = '<video autoplay="autoplay" loop="loop" muted="muted" class="ending_video" src="/videos/ending.mov"></video>';
           targetJp.textContent = 'Nice!!Riding!!';
-          target.innerHTML = '';
+          targetEn.innerHTML = '';
 
           const link = document.querySelector('.twitter-share');
           const url = `https://twitter.com/share?&url=https://surf-typing.herokuapp.com/&text=60秒間で正タイプ${count}文字・誤タイプ${missCount}文字でした。あなたに贈る言葉『${word.jp}』&hashtags=海,タイピングゲーム,サーフィン,ギター,前向き,SurfTyping&lang=ja`;
@@ -569,5 +569,4 @@
           return;
         }
       });
-
   }
