@@ -71,6 +71,8 @@
 
     //タイピングゲーム中
     document.addEventListener('keypress', e => {
+    const issueJ = word.en[0];
+    const issueZ = word.en[1];
       if (isPlayEnd === true) {
         return;
       }
@@ -82,19 +84,19 @@
       //ローマ字の問題の中に配列のもののみに適用
       if (Array.isArray(word.en)) {
           //z,jだけの特例処理
-          if((e.key == "z") && (word.en[0][loc]=="j")) {
+          if((e.key == "z") && (issueJ[loc]=="j")) {
             isKeyCode = 1;
             loc++;
             count++;
-            targetEn.textContent = '_'.repeat(loc) + word.en[1].substring(loc);
+            targetEn.textContent = '_'.repeat(loc) + issueZ.substring(loc);
             }
-          else if((e.key == "j") && (word.en[1][loc]=="z")) {
+          else if((e.key == "j") && (issueZ[loc]=="z")) {
             isKeyCode = 2;
             loc++;
             count++;
-            targetEn.textContent = '_'.repeat(loc) + word.en[0].substring(loc)
+            targetEn.textContent = '_'.repeat(loc) + issueJ.substring(loc)
             }
-          else if(((isKeyCode === 2 || isKeyCode === 0) && e.key !== word.en[0][loc]) || (isKeyCode === 1 && e.key !== word.en[1][loc])) {
+          else if(((isKeyCode === 2 || isKeyCode === 0) && e.key !== issueJ[loc]) || (isKeyCode === 1 && e.key !== issueZ[loc])) {
             //エラー音入れたい
             sound.play();
             sound.currentTime = 0;
@@ -109,22 +111,22 @@
           // 2: __rf
           // 3: ---f
           // 4: ----
-          let wordEn = [];
+          let changeWordEn = [];
           if(isKeyCode === 1) {
-            wordEn = word.en[1];
+            changeWordEn = issueZ;
           } else if(isKeyCode === 2 || isKeyCode === 0) {
-            wordEn = word.en[0];
+            changeWordEn = issueJ;
           }
-          targetEn.textContent = '_'.repeat(loc) + wordEn.substring(loc);
+          targetEn.textContent = '_'.repeat(loc) + changeWordEn.substring(loc);
           }
 
           if(isKeyCode === 1) {
-          if (loc === word.en[1].length) {
+          if (loc === issueZ.length) {
             isKeyCode = 0;
             setWord();
           }}
           else if(isKeyCode === 2) {
-          if (loc === word.en[0].length) {
+          if (loc === issueJ.length) {
             isKeyCode = 0;
             setWord();
           }}
