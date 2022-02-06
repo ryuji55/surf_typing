@@ -84,13 +84,13 @@
       //ローマ字の問題の中に配列のもののみに適用
       if (Array.isArray(word.en)) {
           //z,jだけの特例処理
-          if((e.key == "z") && (issueJ[loc]=="j")) {
+          if((e.key === "z") && (issueJ[loc] === "j")) {
             typed = "z";
             loc++;
             count++;
             targetEn.textContent = '_'.repeat(loc) + issueZ.substring(loc);
             }
-          else if((e.key == "j") && (issueZ[loc]=="z")) {
+          else if((e.key === "j") && (issueZ[loc] === "z")) {
             typed = "j";
             loc++;
             count++;
@@ -132,7 +132,7 @@
           }}
       } else {
 
-          if(word.en == "" && word.jp == "") {
+          if(word.en === "" && word.jp === "") {
             return;
           }
 
