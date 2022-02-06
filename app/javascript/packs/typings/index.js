@@ -25,13 +25,13 @@
     let wordJp;
     let random;
     let loc = 0;
-    let isKeyCode = 0;
     let startTime;
     let isPlaying = false;
     let count = 0;
     let missCount = 0;
     let countdown;
     let isPlayEnd = false;
+    let typed = "normal";
 
     const timer = document.getElementById('timer');
     const typeMiss = document.getElementById('typeMiss');
@@ -85,18 +85,18 @@
       if (Array.isArray(word.en)) {
           //z,jだけの特例処理
           if((e.key == "z") && (issueJ[loc]=="j")) {
-            isKeyCode = 1;
+            typed = "z";
             loc++;
             count++;
             targetEn.textContent = '_'.repeat(loc) + issueZ.substring(loc);
             }
           else if((e.key == "j") && (issueZ[loc]=="z")) {
-            isKeyCode = 2;
+            typed = "j";
             loc++;
             count++;
             targetEn.textContent = '_'.repeat(loc) + issueJ.substring(loc)
             }
-          else if(((isKeyCode === 2 || isKeyCode === 0) && e.key !== issueJ[loc]) || (isKeyCode === 1 && e.key !== issueZ[loc])) {
+          else if(((typed === "j" || typed === "normal") && e.key !== issueJ[loc]) || (typed === "z" && e.key !== issueZ[loc])) {
             //エラー音入れたい
             sound.play();
             sound.currentTime = 0;
@@ -112,22 +112,22 @@
           // 3: ---f
           // 4: ----
           let changeWordEn = [];
-          if(isKeyCode === 1) {
+          if(typed === "z") {
             changeWordEn = issueZ;
-          } else if(isKeyCode === 2 || isKeyCode === 0) {
+          } else if(typed === "j" || typed === "normal") {
             changeWordEn = issueJ;
           }
           targetEn.textContent = '_'.repeat(loc) + changeWordEn.substring(loc);
           }
 
-          if(isKeyCode === 1) {
+          if(typed === "z") {
           if (loc === issueZ.length) {
-            isKeyCode = 0;
+            typed = "normal";
             setWord();
           }}
-          else if(isKeyCode === 2) {
+          else if(typed === "j") {
           if (loc === issueJ.length) {
-            isKeyCode = 0;
+            typed = "normal";
             setWord();
           }}
       } else {
