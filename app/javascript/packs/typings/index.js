@@ -71,6 +71,7 @@
 
     //タイピングゲーム中
     document.addEventListener('keypress', e => {
+    let changeWordEn = [];
     const issueJ = word.en[0];
     const issueZ = word.en[1];
       if (isPlayEnd === true) {
@@ -83,61 +84,61 @@
       }
       //ローマ字の問題の中に配列のもののみに適用
       if (Array.isArray(word.en)) {
-          //z,jだけの特例処理
+        // zをタイプ
           if((e.key === "z") && (issueJ[loc] === "j")) {
             typed = "z";
             loc++;
             count++;
             targetEn.textContent = '_'.repeat(loc) + issueZ.substring(loc);
             }
+        // jをタイプ
           else if((e.key === "j") && (issueZ[loc] === "z")) {
             typed = "j";
             loc++;
             count++;
             targetEn.textContent = '_'.repeat(loc) + issueJ.substring(loc)
             }
+        // j,z含む問題でのタイプミス
           else if(((typed === "j" || typed === "normal") && e.key !== issueJ[loc]) || (typed === "z" && e.key !== issueZ[loc])) {
-            //エラー音入れたい
             sound.play();
             sound.currentTime = 0;
             missCount++;
             return;
           }
           else {
+          // j,z含む正タイプ時の処理
           loc++;
           count++;
 
-          // 1: _urf
-          // 2: __rf
-          // 3: ---f
-          // 4: ----
-          let changeWordEn = [];
+          // zをタイプした後はzの問題を反映させる
           if(typed === "z") {
             changeWordEn = issueZ;
+          // 一度zをタイプしzの問題が反映された後にjもしくは通常タイプ後はjの問題を反映させる
           } else if(typed === "j" || typed === "normal") {
             changeWordEn = issueJ;
           }
           targetEn.textContent = '_'.repeat(loc) + changeWordEn.substring(loc);
           }
 
+         // zでタイプ後に問題を終えたらtypedを初期化して次の問題を表示
           if(typed === "z") {
           if (loc === issueZ.length) {
             typed = "normal";
             setWord();
           }}
+         // jでタイプ後に問題を終えたらtypedを初期化して次の問題を表示 
           else if(typed === "j") {
           if (loc === issueJ.length) {
             typed = "normal";
             setWord();
           }}
       } else {
-
+          // j,zのない問題の処理
           if(word.en === "" && word.jp === "") {
             return;
           }
 
           if (e.key !== word.en[loc]) {
-            //エラー音入れたい
             sound.play();
             sound.currentTime = 0;
             missCount++;
@@ -147,10 +148,6 @@
           loc++;
           count++;
 
-          // 1: _urf
-          // 2: __rf
-          // 3: ---f
-          // 4: ----
           targetEn.textContent = '_'.repeat(loc) + word.en.substring(loc);
 
           if (loc === word.en.length) {
