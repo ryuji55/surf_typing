@@ -374,5 +374,38 @@ export const words = [
       {
         jp: '努力をすれば成功は必ずしないが成長は必ずする',
         en: 'doryokuwosurebaseikouhakanarazusinaigaseityouhakanarazusuru'
+      },
+      {
+        jp: '出会ってくれてありがとうという気持ちで人に接すること',
+        en: 'deattekuretearigatoutoiukimotidehitonisessurukoto'
+      },
+      {
+        jp: '頑張る理由はそれをやると決めたから',
+        en: 'gannbaruriyuuhasorewoyarutokimetakara'
+      },
+      {
+        jp: '行き先だけを見据えてうまくいかなくても腐らずやる',
+        en: 'ikisakidakewomisueteumakuikanakutemokusarazuyaru'
+      },
+      {
+        jp: 'うまくいかない事が起こるのは挑戦している証です',
+        en: 'umakuikanaikotogaokorunohatyousennsiteiruakasidesu'
+      },
+      {
+        jp: 'この結果は当然のことだったと受け入れる',
+        en: 'konokekkahatouzennnokotodattatoukeireru'
+      },
+      {
+        jp: '力を抜いて波の力をうまく利用する事が大切',
+        en: 'tikarawonuitenaminotikarawoumakuriyousurukotogataisetu'
+      },
+      //100
+      {
+        jp: '目的を意識してそこに向かう事だけに集中する',
+        en: 'mokutekiwoisikisitesokonimukaukotodakenisyuutyuusuru'
+      },
+      {
+        jp: 'どこに行きたいかを答えられないならまず決めるところから',
+        en: 'dokoniikitaikawokotaerarenainaramazukimerutokorokara'
       }
     ];
